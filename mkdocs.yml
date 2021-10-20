@@ -59,36 +59,36 @@ nav:
             - Stat Bar: powers/stat_bar.md
             - Action On Projectile Land: powers/action_on_projectile_land.md
     - Apoli:
-        - Home: index.md
+        - Home: submodules/apoli-docs/docs/index.md
         - Datapack Guides:
-            - Defining a Power: guides/data/define_power.md
+            - Defining a Power: submodules/apoli-docs/docs/guides/data/define_power.md
         - Add-on Guides:
-            - Workspace Setup: guides/addon/workspace_setup.md
-            - Dependencies Explained: guides/addon/dependencies.md
+            - Workspace Setup: submodules/apoli-docs/docs/guides/addon/workspace_setup.md
+            - Dependencies Explained: submodules/apoli-docs/docs/guides/addon/dependencies.md
         - Types:
-            - Power Types: power_types.md
-            - Data Types: data_types.md
-            - Power JSON: power_json.md
+            - Power Types: submodules/apoli-docs/docs/power_types.md
+            - Data Types: submodules/apoli-docs/docs/data_types.md
+            - Power JSON: submodules/apoli-docs/docs/power_json.md
         - Conditions:
-            - Bi-entity Conditions: bientity_conditions.md
-            - Biome Conditions: biome_conditions.md
-            - Block Conditions: block_conditions.md
-            - Damage Conditions: damage_conditions.md
-            - Entity Conditions: entity_conditions.md
-            - Fluid Conditions: fluid_conditions.md
-            - Item Conditions: item_conditions.md
-            - Meta Conditions: meta_conditions.md
+            - Bi-entity Conditions: submodules/apoli-docs/docs/bientity_conditions.md
+            - Biome Conditions: submodules/apoli-docs/docs/biome_conditions.md
+            - Block Conditions: submodules/apoli-docs/docs/block_conditions.md
+            - Damage Conditions: submodules/apoli-docs/docs/damage_conditions.md
+            - Entity Conditions: submodules/apoli-docs/docs/entity_conditions.md
+            - Fluid Conditions: submodules/apoli-docs/docs/fluid_conditions.md
+            - Item Conditions: submodules/apoli-docs/docs/item_conditions.md
+            - Meta Conditions: submodules/apoli-docs/docs/meta_conditions.md
         - Actions:
-            - Bi-entity Actions: bientity_actions.md
-            - Block Actions: block_actions.md
-            - Entity Actions: entity_actions.md
-            - Item Actions: item_actions.md
-            - Meta Actions: meta_actions.md
+            - Bi-entity Actions: submodules/apoli-docs/docs/bientity_actions.md
+            - Block Actions: submodules/apoli-docs/docs/block_actions.md
+            - Entity Actions: submodules/apoli-docs/docs/entity_actions.md
+            - Item Actions: submodules/apoli-docs/docs/item_actions.md
+            - Meta Actions: submodules/apoli-docs/docs/meta_actions.md
         - Miscellaneous:
-            - Commands: misc/commands.md
-            - Positioned Item Stack Slots: misc/positioned_item_stack_slots.md
-            - Space: misc/space.md
-            - Vanilla Damage Sources: misc/vanilla_damage_sources.md
+            - Commands: submodules/apoli-docs/docs/misc/commands.md
+            - Positioned Item Stack Slots: submodules/apoli-docs/docs/misc/positioned_item_stack_slots.md
+            - Space: submodules/apoli-docs/docs/misc/space.md
+            - Vanilla Damage Sources: submodules/apoli-docs/docs/misc/vanilla_damage_sources.md
     
 
 theme:
