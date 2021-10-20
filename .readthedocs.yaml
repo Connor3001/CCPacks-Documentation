@@ -1,6 +1,9 @@
 # Required
 version: 2
 
+submodules:
+    include: all
+
 mkdocs:
   configuration: mkdocs.yml
 
