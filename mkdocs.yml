@@ -5,49 +5,59 @@ nav:
     - Pack Installation: pack_installation.md
     - Pack Structure: pack_structure.md
     - CCPacks:
+        - Universal Powers: universal_powers.md
         - Custom Content:
             - Blocks: 
-                - General: block/general.md
-                - Falling Blocks: block/falling_block.md
+                - Generic: block/generic.md
+                - Falling: block/falling.md
                 - Stairs: block/stairs.md
-                - Slabs: block/slabs.md
-                - Fences: block/fences.md
-                - Fence Gates: block/fence_gates.md
+                - Slab: block/slab.md
+                - Fence: block/fence.md
+                - Fence Gate: block/fence_gate.md
                 - Walls: block/walls.md
                 - Block Properties:
                     - Sounds: block/sounds.md
                     - Materials: block/materials.md
             - Items:
                 - Armor: item/armor.md
-                - Durable Item: item/durable.md
+                - Durable: item/durable.md
                 - Food: item/food.md
-                - General: item/general.md
+                - Generic: item/generic.md
+                - Shield: item/shield.md
                 - Tools: item/tools.md
+                - Trinket: item/trinket.md
                 - Weapons: item/weapons.md
                 - Discs: item/disc.md
-            - Entities (WIP):
-                - Chicken: chicken.md
-                - Cow: cow.md
-                - Pig: pig.md
-                - Sheep: sheep.md
-            - Universal Powers: universal_powers.md
-            - Status Effects: effect.md
-            - Enchantments: enchantment.md
+            - Status Effects: 
+                - Neutral: status_effect/neutral.md
+                - Beneficial: status_effect/beneficial.md
+                - Harmful: status_effect/harmful.md
+            - Enchantments:
+                - Generic: enchantment/generic.md
+                - Curse: enchantment/curse.md
             - Portal: portal.md
             - Keybind: keybind.md
-            - Particle: particle.md
+            - Particle:
+                - Generic: particle/generic.md
+                - Emissive: particle/emissive.md
             - Sound Event: sound_event.md
         - Actions:
             - Item Actions:
-                - Remove Durability: item_actions/remove_durability.md
                 - Change Name: item_actions/change_name.md
             - Entity Actions:
-                - Crafting GUI: entity_actions/crafting_gui.md
+                - Open Decision Screen: entity_actions/open_decision_screen.md
+                - Swing Hand: entity_actions/swing_hand.md
+                - Set Stat: entity_actions/set_stat.md
+                - Change Stat: entity_actions/change_stat.md
                 - Block Raycast: entity_actions/raycast_block.md
         - Conditions:
             - Item Conditions:
                 - Compare Durability: item_conditions/compare_durability.md
-                - Compare Amount: item_conditions/compare_amount.md
+            - Entity Conditions:
+                - Check Stat: entity_conditions/check_stat.md
+        - Powers:
+            - Stat Bar: powers/stat_bar.md
+            - Action On Projectile Land: powers/action_on_projectile_land.md
     - Apoli:
         - Types:
             - Power Types: apoli/power_types.md

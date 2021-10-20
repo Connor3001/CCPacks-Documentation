@@ -7,6 +7,9 @@ Then, in this file, you enter the following, replacing the power names with your
 	"powers": [
 		"namespace:power_name",
 		"namespace:power_name_2"
-	]
+	],
+	"entity_entry": {
+		"entity": "minecraft:creeper"
+	}
 }
 ```

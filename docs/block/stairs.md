@@ -4,8 +4,6 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`subtype` | [String]() | *mandatory* | Defines the type of block
-`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `sound` | [Sound]() | *1* | The sound the block makes when broken.
 `material` | [Material]() | *optional* | The sounds related to the player moving and walking on the block.
 `effective_tool` | [Effective Tool]() | *optional* | The tool you need to use to mine the block.
@@ -23,9 +21,7 @@
 
 ```json
 {
-    "type": "ccpacks:block",
-	"subtype": "stairs",
-    "identifier": "example_pack:ice_stairs",
+    "type": "block:stairs",
     "sound": "glass",
     "material": "stone",
     "effective_tool": "pickaxe",

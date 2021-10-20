@@ -4,8 +4,6 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`subtype` | [String]() | *mandatory* | Defines the type of block
-`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
 `sound` | [Sound]() | *1* | The sound the block makes when broken.
 `material` | [Material]() | *optional* | The sounds related to the player moving and walking on the block.
 `effective_tool` | [Effective Tool]() | *optional* | The tool you need to use to mine the block.
@@ -21,9 +19,7 @@
 
 ```json
 {
-    "type": "ccpacks:block",
-	"subtype": "generic",
-    "identifier": "example_pack:health_block",
+    "type": "block:generic",
     "sound": "glass",
     "material": "stone",
     "effective_tool": "pickaxe",
@@ -35,5 +31,3 @@
 	"loot_table": "example_pack:data"
 }
 ```
-
-This code makes a block that sounds like glass when broken, and when right clicked, opens a crafting GUI for the player
