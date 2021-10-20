@@ -58,26 +58,7 @@ nav:
         - Powers:
             - Stat Bar: powers/stat_bar.md
             - Action On Projectile Land: powers/action_on_projectile_land.md
-    - Apoli:
-        - Types:
-            - Power Types: apoli/power_types.md
-            - Data Types: apoli/data_types.md
-            - Power JSON: apoli/power_json.md
-        - Conditions:
-            - Biome Conditions: apoli/biome_conditions.md
-            - Block Conditions: apoli/block_conditions.md
-            - Damage Conditions: apoli/damage_conditions.md
-            - Entity Conditions: apoli/entity_conditions.md
-            - Fluid Conditions: apoli/fluid_conditions.md
-            - Item Conditions: apoli/item_conditions.md
-            - Meta Conditions: apoli/meta_conditions.md
-        - Actions:
-            - Block Actions: apoli/block_actions.md
-            - Entity Actions: apoli/entity_actions.md
-            - Item Actions: apoli/item_actions.md
-            - Meta Actions: apoli/meta_actions.md
-        - Miscellaneous:
-            - Vanilla Damage Sources: apoli/misc/vanilla_damage_sources.md
+    
 
 theme:
   name: material

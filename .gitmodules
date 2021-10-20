@@ -1,0 +1,3 @@
+[submodule "docs/submodules/apoli-docs"]
+	path = docs/submodules/apoli-docs
+	url = https://github.com/ThatRobin/apoli-docs.git
