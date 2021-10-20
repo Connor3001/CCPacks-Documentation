@@ -11,7 +11,7 @@ nav:
                 - Generic: block/generic.md
                 - Falling: block/falling.md
                 - Stairs: block/stairs.md
-                - Slab: block/slab.md
+                - Slab: block/slabs.md
                 - Fence: block/fence.md
                 - Fence Gate: block/fence_gate.md
                 - Walls: block/walls.md
