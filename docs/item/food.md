@@ -22,29 +22,15 @@
 
 ```json
 {
-    "type": "ccpacks:item",
-    "subtype": "food",
-    "identifier": "example_pack:glitter_food",
+    "type": "item:food",
     "max_count": 64,
     "hunger": 8,
     "saturation": 12,
     "meat": false,
     "always_edible": true,
     "returns": "minecraft:diamond",
-    "drinkable": true,
+    "drinkable": false,
     "sound": "minecraft:block.sand.place",
-    "eating_time": 60,
-    "eat_action": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "effect": "minecraft:levitation",
-            "duration": 400,
-            "amplifier": 0
-        }
-    },
-    "lore": [
-        "Some say you should never eat this...",
-        "They are WRONG."
-    ]
+    "eating_time": 60
 }
 ```

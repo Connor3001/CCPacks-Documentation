@@ -15,9 +15,7 @@
 
 ```json
 {
-  "type": "ccpacks:item",
-  "subtype": "music_disc",
-  "identifier": "example_pack:funky_disc",
+  "type": "item:music_disc",
   "comparator_output": 8,
   "sound": "example_pack:funky_sound"
 }

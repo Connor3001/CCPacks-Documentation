@@ -14,9 +14,6 @@ Custom Trinkets requires the [Trinkets](https://www.curseforge.com/minecraft/mc-
 
 ```json
 {
-	"type": "ccpacks:item",
-    "subtype": "trinket",
-	"identifier": "example_pack:elytra_trinket",
-	"durability": 100
+	"type": "item:trinket"
 }
 ```

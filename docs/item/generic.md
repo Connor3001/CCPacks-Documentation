@@ -13,9 +13,8 @@
 
 ```json
 {
-    "type": "ccpacks:item",
-    "subtype": "generic",
-    "identifier": "example_pack:amethyst_netherite_ingot",
-    "max_count": 64
+	"type": "item:generic",
+	"item_group": "materials",
+	"max_count": 64
 }
 ```

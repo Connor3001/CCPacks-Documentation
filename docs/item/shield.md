@@ -15,9 +15,7 @@
 
 ```json
 {
-    "type": "ccpacks:item",
-    "subtype": "shield",
-    "identifier": "example_pack:amethyst_shield",
+    "type": "item:shield",
     "cooldown": 20,
     "durability": 100,
     "enchantability": 9

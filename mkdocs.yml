@@ -45,19 +45,19 @@ nav:
             - Item Actions:
                 - Change Name: item_actions/change_name.md
             - Entity Actions:
-                - Open Decision Screen: entity_actions/open_decision_screen.md
-                - Swing Hand: entity_actions/swing_hand.md
-                - Set Stat: entity_actions/set_stat.md
                 - Change Stat: entity_actions/change_stat.md
+                - Open Decision Screen: entity_actions/open_decision_screen.md
                 - Block Raycast: entity_actions/raycast_block.md
+                - Swing Hand: entity_actions/swing_hand.md
         - Conditions:
             - Item Conditions:
                 - Compare Durability: item_conditions/compare_durability.md
             - Entity Conditions:
                 - Check Stat: entity_conditions/check_stat.md
-        - Powers:
-            - Stat Bar: powers/stat_bar.md
-            - Action On Projectile Land: powers/action_on_projectile_land.md
+                - Equipped Trinket: entity_conditions/equipped_trinket.md
+        - Types:
+            - Power Types: power_types.md
+            - Data Types: data_types.md
     - Apoli:
         - Home: submodules/apoli-docs/docs/index.md
         - Datapack Guides:

@@ -11,8 +11,11 @@
 
 ```json
 {
-  "type": "ccpacks:particle",
-  "identifier": "example_pack:butterfly",
-  "glowing": true
+	"type": "particle:generic",
+	"color": {
+		"red": 1,
+		"blue": 1,
+		"green": 0
+	}
 }
 ```

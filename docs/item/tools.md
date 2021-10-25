@@ -18,11 +18,9 @@
 
 ```json
 {
-    "type": "ccpacks:item",
-    "subtype": "axe",
-    "identifier": "example_pack:amethyst_axe",
+    "type": "item:axe",
     "durability": 450,
-    "mining_speed_multiplier": 1,
+    "mining_speed_multiplier": 10,
     "attack_damage": 11,
     "attack_speed": 1.1,
     "mining_level": 4,

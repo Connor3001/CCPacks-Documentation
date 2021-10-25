@@ -11,7 +11,7 @@
 
 ```json
 {
-	"type": "ccpacks:keybind",
+	"type": "keybind:apoli",
 	"name": "winged_boost",
 	"category": "example_pack_keybinds"
 }

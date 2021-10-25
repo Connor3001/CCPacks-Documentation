@@ -13,9 +13,19 @@
 
 ```json
 {
-    "type": "ccpacks:item",
-    "subtype": "durable",
-    "identifier": "example_pack:goat_horn",
-    "durability": 50
+	"type": "item:durable",
+	"item_group": "materials",
+	"durability": 100,
+	"max_count": 64,
+	"start_color": {
+		"red": 0.85882352941,
+		"green": 0.45882352941,
+		"blue": 0.92156862745
+	},
+	"end_color": {
+		"red": 0.62352941176,
+		"green": 0.07843137254,
+		"blue": 0.70980392156
+	}
 }
 ```

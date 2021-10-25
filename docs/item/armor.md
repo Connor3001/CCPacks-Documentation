@@ -18,15 +18,14 @@
 
 ```json
 {
-	"type": "ccpacks:item",
-    "subtype": "chestplate",
-	"identifier": "example_pack:netherite_elytra",
-	"name": "emerald",
-	"durability": 592,
-	"protection": 8,
-	"enchantability": 15,
-	"toughness": 3,
-	"knockback_resistance": 1,
-	"repair_item": "minecraft:emerald"
+	"type": "item:armor",
+	"slot": "chest",
+	"name": "kunzite",
+	"durability": 750,
+	"protection": 5,
+	"toughness": 1,
+	"knockback_resistance": 0,
+	"enchantability": 6,
+	"item_group": "materials"
 }
 ```
