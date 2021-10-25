@@ -4,7 +4,7 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`color` | [Color](data_types/color.md) | *optional* | The colours used in the potions particle effects. The alpha value doesnt effect this.
+`color` | [Color](../data_types/color.md) | *optional* | The colours used in the potions particle effects. The alpha value doesnt effect this.
 
 Add functionality using [Power Types]() and [Universal Powers]()
 

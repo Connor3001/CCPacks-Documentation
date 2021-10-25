@@ -1,4 +1,4 @@
-# Materials
+# Block Sound Group
 
 [Data Type](../data_types.md).
 
