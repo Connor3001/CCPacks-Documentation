@@ -4,10 +4,10 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`subtype` | [String]() | *mandatory* | Defines the type of item.
-`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
-`durability` | [Integer]() | *mandatory* | How many uses the item has.
-`lore` | [String [array]]() | *optional* | Lines of text below an item.
+`item_group`| [Item Group](../../data_types/item_groups) | `misc` | The tab you can find the item in.
+`durability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *mandatory* | How many uses the item has.
+`repair_item` | [Identifier](../submodules/apoli-docs/docs/data_types/identifier.md) | *optional* | The item used to repair this item.
+`lore` | [String [array]](../submodules/apoli-docs/docs/data_types/string.md) | *optional* | Lines of text below an item.
 
 ### Example Code
 

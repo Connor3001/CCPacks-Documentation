@@ -4,10 +4,10 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`subtype` | [String]() | *mandatory* | Defines the type of item.
-`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
-`max_count` | [Integer]() | *1* | How many uses the item has.
-`lore` | [String [array]]() | *optional* | Lines of text below an item.
+`item_group`| [Item Group](../../data_types/item_groups) | `misc` | The tab you can find the item in.
+`max_count` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *64* | The maximum stack count for the item.
+`fuel_tick` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
+`lore` | [String [array]](../submodules/apoli-docs/docs/data_types/string.md) | *optional* | Lines of text below an item.
 
 ### Example Code
 

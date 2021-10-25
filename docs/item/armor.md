@@ -4,15 +4,17 @@
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`subtype` | [String]() | *mandatory* | Defines the type of item.
-`identifier` | [Identifier]() | *mandatory* | The identifier is what the item appears as in the /give command.
-`name` | [String]() | *mandatory* | The name of the image files used to texture the armor.
-`durability` | [Integer]() | *10* | How many uses the item has.
-`protection` | [Integer]() | *0* | the amount of damage that a weapon does.
-`knockback_resistance` | [Integer]() | *0* | How fast you can swing the weapon.
-`enchantability` | [Integer]() | *0* | How likely you are to get good enchantments.
-`lore` | [String [array]]() | *optional* | Lines of text below an item.
-`repair_item` | [Item]() | *optional* | The item used to repair the armour.
+`item_group`| [Item Group](../../data_types/item_groups) | `misc` | The tab you can find the item in.
+`name` | [String](../submodules/apoli-docs/docs/data_types/string.md) | *mandatory* | The name of the image files used to texture the armor.
+`fuel_tick` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
+`slot` | [String](../submodules/apoli-docs/docs/data_types/string.md) | *optional* | Which equipped item to execute the action on. One of: `"head"`, `"chest"`, `"legs"`, `"feet"`.
+`durability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *10* | How many uses the item has.
+`protection` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *0* | the amount of damage that a weapon does.
+`toughness` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *0* | the amount of damage that a weapon does.
+`knockback_resistance` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *0* | How fast you can swing the weapon.
+`enchantability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *0* | How likely you are to get good enchantments.
+`lore` | [String [array]](../submodules/apoli-docs/docs/data_types/string.md) | *optional* | Lines of text below an item.
+`repair_item` | [Identifier](../submodules/apoli-docs/docs/data_types/identifier.md) | *optional* | The item used to repair this item.
 
 ### Armor json structure
 
