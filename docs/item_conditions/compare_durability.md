@@ -10,6 +10,7 @@ Field  | Type | Default | Description
 `compare_to` | [Integer]() | | The value to compare durability against.
 
 ### Example
+
 ```json
 "item_condition": {
     "type": "ccpacks:compare_durability",

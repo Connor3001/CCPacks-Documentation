@@ -40,8 +40,6 @@ nav:
                 - Emissive: particle/emissive.md
             - Sound Event: sound_event.md
         - Actions:
-            - Item Actions:
-                - Change Name: item_actions/change_name.md
             - Entity Actions:
                 - Change Stat: entity_actions/change_stat.md
                 - Open Decision Screen: entity_actions/open_decision_screen.md
