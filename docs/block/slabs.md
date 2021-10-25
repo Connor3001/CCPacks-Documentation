@@ -56,5 +56,3 @@ There are two types of slabs, vertical, and horizontal. these are specified by u
 	"item_group": "building_blocks"
 }
 ```
-
-This code makes a block that sounds like glass when broken, and when right clicked, opens a crafting GUI for the player
