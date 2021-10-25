@@ -2,12 +2,10 @@ site_name: CCPacks Documentation
 
 nav:
     - Home: index.md
-    - Pack Installation: pack_installation.md
-    - Pack Structure: pack_structure.md
     - CCPacks:
         - Universal Powers: universal_powers.md
         - Custom Content:
-            - Blocks: 
+            - Blocks:
                 - Generic: block/generic.md
                 - Falling: block/falling.md
                 - Stairs: block/stairs.md
