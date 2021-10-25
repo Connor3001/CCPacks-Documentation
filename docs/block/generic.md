@@ -5,7 +5,7 @@
    Field   | Type | Default | Description
 -----------|------|---------|-------------
 `material` | [Material](../block/materials.md) | *optional* | The sounds related to the player moving and walking on the block.
-`effective_tool` | [Tool Type](../../data_types/tool_types.md) | *optional* | The tool you need to use to mine the block.
+`effective_tool` | [Tool Type](../../data_types/tool_types) | *optional* | The tool you need to use to mine the block.
 `block_sound_group` | [Block Sound Group](../block/sounds.md) | *optional* | The sounds related to the player moving and walking on the block.
 `collidable` | [Boolean](../submodules/apoli-docs/docs/data_types/boolean.md) | *optional* | The sounds related to the player moving and walking on the block.
 `transparent` | [Boolean](../submodules/apoli-docs/docs/data_types/boolean.md) | *optional* | The sounds related to the player moving and walking on the block.
