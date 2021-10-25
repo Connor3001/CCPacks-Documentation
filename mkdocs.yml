@@ -35,6 +35,7 @@ nav:
                 - Curse: enchantment/curse.md
             - Portal: portal.md
             - Keybind: keybind.md
+            - Projectile: projectile.md
             - Particle:
                 - Generic: particle/generic.md
                 - Emissive: particle/emissive.md
