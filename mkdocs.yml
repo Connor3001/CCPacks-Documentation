@@ -59,9 +59,6 @@ nav:
         - Home: submodules/apoli-docs/docs/index.md
         - Datapack Guides:
             - Defining a Power: submodules/apoli-docs/docs/guides/data/define_power.md
-        - Add-on Guides:
-            - Workspace Setup: submodules/apoli-docs/docs/guides/addon/workspace_setup.md
-            - Dependencies Explained: submodules/apoli-docs/docs/guides/addon/dependencies.md
         - Types:
             - Power Types: submodules/apoli-docs/docs/power_types.md
             - Data Types: submodules/apoli-docs/docs/data_types.md
