@@ -55,6 +55,8 @@ nav:
         - Types:
             - Power Types: power_types.md
             - Data Types: data_types.md
+            - Choice JSON: choice_json.md
+            - Layer JSON: layer_json.md
     - Apoli:
         - Home: submodules/apoli-docs/docs/index.md
         - Datapack Guides:
