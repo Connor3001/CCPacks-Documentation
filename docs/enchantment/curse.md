@@ -1,4 +1,4 @@
-# Enchantment
+# Curse
 
 Type ID: `enchantment:curse`
 
