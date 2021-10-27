@@ -2,7 +2,7 @@
 
 [Entity Condition](../entity_conditions.md).
 
-Checks the value of a [Star Bar](../power_types/stat_bar.md).
+checks the value of a [Star Bar](../power_types/stat_bar.md).
 
 Type ID: `ccpacks:check_stat`
 
