@@ -1,4 +1,4 @@
-# Resource
+# Stat Bar
 
 [Power Type](../power_types.md).
 

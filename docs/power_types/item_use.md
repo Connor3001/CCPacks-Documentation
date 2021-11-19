@@ -2,7 +2,7 @@
 
 [Power Type](../power_types.md).
 
-Defines a stat bar for the player. Basically holds a persistent integer value between 0, and 20, which can be modified by the [Change Stat](../entity_actions/change_stat.md) action and checked with the [Check Stat](../entity_conditions/check_stat.md) player condition.
+This power uses the existing item interaction system in minecraft to execute actions. which means that when used, the actions wont happen if something of higher priority occurs (for example opening a chest).
 
 Type ID: `ccpacks:item_use`
 
@@ -18,7 +18,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-    "type": "ccpacks:use_item",
+    "type": "ccpacks:item_use",
     "cooldown": 20,
 	"item_action": {
         "type": "apoli:damage",
