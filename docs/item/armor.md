@@ -22,7 +22,7 @@ Type ID: `item:armor`
 `enchantability` | [Integer](../data_types/integer.md) | *0* | How likely you are to get good enchantments.
 `repair_item` | [Identifier](../data_types/identifier.md) | *optional* | The item used to repair this item.
 
-### Armor json structure
+### Example Code
 
 ```json
 {

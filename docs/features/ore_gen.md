@@ -1,5 +1,6 @@
 # Ore Generation
 
+
 Type ID: `feature:ore_generation`
 
 ### Fields
@@ -11,6 +12,7 @@ Type ID: `feature:ore_generation`
 `veins_per_chunk` | [Integer](../data_types/integer.md) | 20 | The amount of veins in one chunk.
 `min_height` | [Integer](../data_types/integer.md) | 0 | The lowest Y value you can find the ore at.
 `max_height` | [Integer](../data_types/integer.md) | 64 | The highest Y value you can find the ore at.
+
 
 ### Example Code
 

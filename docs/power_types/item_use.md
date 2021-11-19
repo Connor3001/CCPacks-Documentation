@@ -16,3 +16,31 @@ Field  | Type | Default | Description
 `item_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types/) | _optional_ | If specified, only execute the action if the item condition is fulfilled.
 
 ### Example
+```json
+{
+    "type": "ccpacks:use_item",
+    "cooldown": 20,
+	"item_action": {
+        "type": "apoli:damage",
+        "amount": 1
+    },
+    "item_condition": {
+        "type": "ccpacks:compare_durability",
+        "comparison": ">",
+        "compare_to": 1
+    },
+    "entity_action": {
+        "type": "ccpacks:change_stat",
+        "stat_bar": "example_pack:mana_bar",
+        "change": -2,
+        "operation": "add"
+    },
+    "condition": {
+        "type": "ccpacks:check_stat",
+        "stat_bar": "example_pack:mana_bar",
+        "comparison": ">=",
+        "compare_to": 2
+    }
+}
+```
+This power is in the example pack, attached to the kunzite_staff. When the item is used, it damages the item, if its durability is greater than 1. and it also removes from the players mana, if that is also not empty.
