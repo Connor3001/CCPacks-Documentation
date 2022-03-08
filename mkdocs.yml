@@ -46,12 +46,19 @@ nav:
                 - Open Decision Screen: entity_actions/open_decision_screen.md
                 - Block Raycast: entity_actions/raycast_block.md
                 - Swing Hand: entity_actions/swing_hand.md
+            - Block Actions:
+                - Change Resource: block_actions/change_resource.md
+                - Trigger Mechanic: block_actions/trigger_mechanic.md
         - Conditions:
             - Item Conditions:
                 - Compare Durability: item_conditions/compare_durability.md
             - Entity Conditions:
                 - Check Stat: entity_conditions/check_stat.md
                 - Equipped Trinket: entity_conditions/equipped_trinket.md
+            - Block Conditions:
+                - Resource: block_conditions/resource.md
+                - Exposed to Sun: block_conditions/exposed_to_sun.md
+                - Block Pattern: block_conditions/block_pattern.md
         - Types:
             - Power Types: power_types.md
             - Mechanic Types: mechanic_types.md

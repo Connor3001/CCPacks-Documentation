@@ -11,6 +11,8 @@ Custom Trinkets requires the [Trinkets](https://www.curseforge.com/minecraft/mc-
 `fuel_tick` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
 `lore` | [String [array]](../submodules/apoli-docs/docs/data_types/string.md) | *optional* | Lines of text below an item.
 `durability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *optional* | How many uses the item has.
+`name` | [String](../../data_types/string) | *optional* | Sets the items name.
+`item_powers` | [Item Power [array]]() | *optional* | The powers your item will have.
 `start_color` | [Color](data_types/color.md) | *optional* | How many uses the item has.
 `end_color` | [Color](data_types/color.md) | *optional* | How many uses the item has.
 
