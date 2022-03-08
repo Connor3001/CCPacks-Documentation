@@ -54,6 +54,7 @@ nav:
                 - Equipped Trinket: entity_conditions/equipped_trinket.md
         - Types:
             - Power Types: power_types.md
+            - Mechanic Types: mechanic_types.md
             - Data Types: data_types.md
             - Choice JSON: choice_json.md
             - Layer JSON: layer_json.md
