@@ -8,8 +8,9 @@ Then, in this file, you enter the following, replacing the power names with your
 		"namespace:power_name",
 		"namespace:power_name_2"
 	],
-	"entity_entry": {
-		"tag": "minecraft:skeletons"
+	"entity_condition": {
+		"type": "apoli:entity_type",
+		"entity_type": "minecraft:creeper"
 	}
 }
 ```

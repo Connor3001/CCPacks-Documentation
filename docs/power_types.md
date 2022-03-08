@@ -8,4 +8,8 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 ## Regular types
 
 * [Action On Projectile Land](power_types/action_on_projectile_land.md)
+* [Bind Item](power_types/bind_item.md)
+* [Item Use](power_types/item_use.md)
 * [Stat Bar](power_types/stat_bar.md)
+* [Toggle](power_types/toggle.md)
+* [Use as Bundle](power_types/use_as_bundle.md)
