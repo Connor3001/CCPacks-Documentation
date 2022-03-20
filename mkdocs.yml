@@ -26,6 +26,9 @@ nav:
                 - Trinket: item/trinket.md
                 - Weapons: item/weapons.md
                 - Discs: item/disc.md
+            - Features:
+                - Ore Generation: features/ore_gen.md
+                - Tree Generation: features/tree_gen.md
             - Status Effects: 
                 - Neutral: status_effect/neutral.md
                 - Beneficial: status_effect/beneficial.md
@@ -33,7 +36,9 @@ nav:
             - Enchantments:
                 - Generic: enchantment/generic.md
                 - Curse: enchantment/curse.md
-            - Portal: portal.md
+            - Portals: 
+                - Vertical: portal/vertical.md
+                - Horizontal: portal/horizontal.md
             - Keybind: keybind.md
             - Projectile: projectile.md
             - Particle:
@@ -65,35 +70,6 @@ nav:
             - Data Types: data_types.md
             - Choice JSON: choice_json.md
             - Layer JSON: layer_json.md
-    - Apoli:
-        - Home: submodules/apoli-docs/docs/index.md
-        - Datapack Guides:
-            - Defining a Power: submodules/apoli-docs/docs/guides/data/define_power.md
-        - Types:
-            - Power Types: submodules/apoli-docs/docs/power_types.md
-            - Data Types: submodules/apoli-docs/docs/data_types.md
-            - Power JSON: submodules/apoli-docs/docs/power_json.md
-        - Conditions:
-            - Bi-entity Conditions: submodules/apoli-docs/docs/bientity_conditions.md
-            - Biome Conditions: submodules/apoli-docs/docs/biome_conditions.md
-            - Block Conditions: submodules/apoli-docs/docs/block_conditions.md
-            - Damage Conditions: submodules/apoli-docs/docs/damage_conditions.md
-            - Entity Conditions: submodules/apoli-docs/docs/entity_conditions.md
-            - Fluid Conditions: submodules/apoli-docs/docs/fluid_conditions.md
-            - Item Conditions: submodules/apoli-docs/docs/item_conditions.md
-            - Meta Conditions: submodules/apoli-docs/docs/meta_conditions.md
-        - Actions:
-            - Bi-entity Actions: submodules/apoli-docs/docs/bientity_actions.md
-            - Block Actions: submodules/apoli-docs/docs/block_actions.md
-            - Entity Actions: submodules/apoli-docs/docs/entity_actions.md
-            - Item Actions: submodules/apoli-docs/docs/item_actions.md
-            - Meta Actions: submodules/apoli-docs/docs/meta_actions.md
-        - Miscellaneous:
-            - Commands: submodules/apoli-docs/docs/misc/commands.md
-            - Positioned Item Stack Slots: submodules/apoli-docs/docs/misc/positioned_item_stack_slots.md
-            - Space: submodules/apoli-docs/docs/misc/space.md
-            - Vanilla Damage Sources: submodules/apoli-docs/docs/misc/vanilla_damage_sources.md
-    
 
 theme:
   name: material

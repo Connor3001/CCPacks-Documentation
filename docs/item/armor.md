@@ -15,6 +15,7 @@
 `enchantability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *0* | How likely you are to get good enchantments.
 `lore` | [String [array]](../submodules/apoli-docs/docs/data_types/string.md) | *optional* | Lines of text below an item.
 `repair_item` | [Identifier](../submodules/apoli-docs/docs/data_types/identifier.md) | *optional* | The item used to repair this item.
+`item_powers` | [Item Power [array]]() | *optional* | The powers your item will have.
 
 ### Armor json structure
 

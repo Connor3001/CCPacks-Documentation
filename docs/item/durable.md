@@ -6,12 +6,13 @@
 -----------|------|---------|-------------
 `item_group`| [Item Group](../../data_types/item_groups) | `misc` | The tab you can find the item in.
 `name` | [String](../../data_types/string) | *optional* | Sets the items name.
-`item_powers` | [Item Power [array]]() | *optional* | The powers your item will have.
-`start_colour` | [Color Holder]() | *optional* | The start colour gradient of the Durability bar.
-`end_colour` | [Color Holder]() | *optional* | The end colour gradient of the Durability bar.
-`durability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *mandatory* | How many uses the item has.
 `repair_item` | [Identifier](../submodules/apoli-docs/docs/data_types/identifier.md) | *optional* | The item used to repair this item.
 `lore` | [String [array]](../submodules/apoli-docs/docs/data_types/string.md) | *optional* | Lines of text below an item.
+`durability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *mandatory* | How many uses the item has.
+`fuel_tick` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
+`start_colour` | [Color Holder]() | *optional* | The start colour gradient of the Durability bar.
+`end_colour` | [Color Holder]() | *optional* | The end colour gradient of the Durability bar.
+`item_powers` | [Item Power [array]]() | *optional* | The powers your item will have.
 
 ### Example Code
 

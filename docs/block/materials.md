@@ -8,14 +8,12 @@ An [Object](object.md) used to define the properties of the block.
 
 Field                |                  Type               | Default | Description
 ---------------------|-------------------------------------|---------|-------------
-`allow_light`        | [Boolean](../data_types/boolean.md) |  false  | Allow light to pass through the block.
-`allow_movement`     | [Boolean](../data_types/boolean.md) |  false  | <-->
-`blocks_pistons`     | [Boolean](../data_types/boolean.md) |  false  | <-->
-`burnable`           | [Boolean](../data_types/boolean.md) |  false  | <-->
-`destroyed_by_piston`| [Boolean](../data_types/boolean.md) |  false  | <-->
-`liquid`             | [Boolean](../data_types/boolean.md) |  false  | <-->
-`not_solid`          | [Boolean](../data_types/boolean.md) |  false  | <-->
-`replaceable`        | [Boolean](../data_types/boolean.md) |  false  | <-->
+`liquid`             | [Boolean](../data_types/boolean.md) |  false  | <Not yet documented, if discovered please let me know on the discord>
+`solid`          	 | [Boolean](../data_types/boolean.md) |  true   | <Not yet documented, if discovered please let me know on the discord>
+`blocks_movement`    | [Boolean](../data_types/boolean.md) |  true   | Stops the player from walking through the block.
+`blocks_light`       | [Boolean](../data_types/boolean.md) |  true   | Stops light from going through the block.
+`burnable`           | [Boolean](../data_types/boolean.md) |  false  | determines whether the block burns.
+`piston_behaviour`	 | [Boolean](../data_types/boolean.md) | `normal`| <Not yet documented, if discovered please let me know on the discord> Values: `normal`, `destroy`, `block`, `ignore`, `push_only`
 
 ### Examples:
 
