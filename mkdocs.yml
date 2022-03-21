@@ -24,14 +24,16 @@ nav:
             - Tools: item/tools.md
             - Trinket: item/trinket.md
             - Weapons: item/weapons.md
-        - Discs: item/disc.md
+            - Discs: item/disc.md
+            - Dyeable: item/dyeable.md
+            - Pullback: item/pullback.md
         - Features:
             - Ore Generation: features/ore_gen.md
             - Tree Generation: features/tree_gen.md
         - Status Effects: 
             - Neutral: status_effect/neutral.md
             - Beneficial: status_effect/beneficial.md
-        - Harmful: status_effect/harmful.md
+            - Harmful: status_effect/harmful.md
         - Enchantments:
             - Generic: enchantment/generic.md
             - Curse: enchantment/curse.md
@@ -47,9 +49,7 @@ nav:
     - Actions:
         - Entity Actions:
             - Change Stat: entity_actions/change_stat.md
-            - Open Decision Screen: entity_actions/open_decision_screen.md
-            - Block Raycast: entity_actions/raycast_block.md
-            - Swing Hand: entity_actions/swing_hand.md
+            - Open Choice Screen: entity_actions/open_choice_screen.md
         - Block Actions:
             - Change Resource: block_actions/change_resource.md
             - Trigger Mechanic: block_actions/trigger_mechanic.md
