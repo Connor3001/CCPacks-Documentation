@@ -1,8 +1,8 @@
-# Stat Bar
+# On Land
 
 [Mechanic Type](../mechanic_types.md).
 
-Defines a stat bar for the player. Basically holds a persistent integer value between 0, and 20, which can be modified by the [Change Stat](../entity_actions/change_stat.md) action and checked with the [Check Stat](../entity_conditions/check_stat.md) player condition.
+A Mechanic that is activated when a player falls onto the block
 
 Type ID: `ccpacks:on_land`
 
@@ -11,9 +11,9 @@ Type ID: `ccpacks:on_land`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `damage_multiplier` | [Float](../data_types/float.md) | 1.0 | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`entity_action` | [Stat Bar Hud Render](../data_types/entity_action.md) | _optional_ | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`block_action` | [Stat Bar Hud Render](../data_types/block_action.md) | _optional_ | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`block_condition` | [Integer](../data_types/block_condition.md) | _optional_ | The value of the resource when the player first gains this power.
+`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | The action to execute on the player when they land on the block.
+`block_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block when it is landed on.
+`block_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the block action.
 
 ### Example
 ```json

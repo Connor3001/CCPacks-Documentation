@@ -2,7 +2,8 @@
 
 [Block Action](../block_actions.md).
 
-Changes the value of a [Resource](../mechanic_types/resource.md).
+!!! note
+	This action will only work on ccpacks blocks with the [Resource](../mechanic_types/resource.md) Mechanic.
 
 Type ID: `ccpacks:change_resource`
 
@@ -20,7 +21,7 @@ Field  | Type | Default | Description
     "type": "ccpacks:change_resource",
     "resource": "example_pack:fuel",
     "change": 1,
-	"operation": true
+	"operation": add
 }
 ```
 This action adds 1 to the `example_pack:fuel` [resource](../power_types/resource.md) power. (`data\example_pack\mechanics\fuel.json`)

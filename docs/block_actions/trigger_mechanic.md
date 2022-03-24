@@ -2,7 +2,10 @@
 
 [Block Action](../block_actions.md).
 
-Triggers a neighbouring block's mechanic. *Only works on `ccpacks:triggerable` mechanics*
+!!! note
+	This action will only work on ccpacks blocks with the [Triggerable](../mechanic_types/triggerable.md) Mechanic.
+
+Triggers a neighbouring block's mechanic. 
 
 Type ID: `ccpacks:trigger_mechanic`
 

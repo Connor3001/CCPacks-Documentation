@@ -1,8 +1,8 @@
-# Stat Bar
+# Triggerable
 
 [Mechanic Type](../mechanic_types.md).
 
-Defines a stat bar for the player. Basically holds a persistent integer value between 0, and 20, which can be modified by the [Change Stat](../entity_actions/change_stat.md) action and checked with the [Check Stat](../entity_conditions/check_stat.md) player condition.
+Similar to [On Neighbour Update](on_neighbour_update.md) however, it is triggered by the [Trigger Mechanic](../block_actions/trigger_mechanic.md) block action.
 
 Type ID: `ccpacks:triggerable`
 
@@ -10,18 +10,9 @@ Type ID: `ccpacks:triggerable`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`neighbour_action` | [Stat Bar Hud Render](../data_types/stat_hud_render.md) | | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`neighbour_condition` | [Stat Bar Hud Render](../data_types/stat_hud_render.md) | | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`self_action` | [Stat Bar Hud Render](../data_types/stat_hud_render.md) | | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`self_condition` | [Integer](../data_types/integer.md) | 20 | The value of the resource when the player first gains this power.
+`neighbour_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the neighbouring block.
+`neighbour_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the neighbouring block action.
+`self_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block.
+`self_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the self block action.
 
 ### Example
-```json
-{
-    "type": "ccpacks:resource",
-	"min": 0,
-	"max": 100,
-    "start_value": 20
-}
-```
-This power is a stat bar, which creates a bar of the given texture that is already completely filled.

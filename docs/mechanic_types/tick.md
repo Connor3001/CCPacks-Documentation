@@ -10,17 +10,8 @@ Type ID: `ccpacks:tick`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`interval` | [Stat Bar Hud Render](../data_types/stat_hud_render.md) | | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`block_action` | [Stat Bar Hud Render](../data_types/stat_hud_render.md) | | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`block_condition` | [Integer](../data_types/integer.md) | 20 | The value of the resource when the player first gains this power.
+`interval` | [Integer](../data_types/integer.md) | 1 | Interval of ticks between subsequent executions of the specified actions. Must be a value of at least 1.
+`block_action` | [Block Action Types](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block that has the power each interval.
+`block_condition` | [Block Condition Types](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the block action.
 
 ### Example
-```json
-{
-    "type": "ccpacks:resource",
-	"min": 0,
-	"max": 100,
-    "start_value": 20
-}
-```
-This power is a stat bar, which creates a bar of the given texture that is already completely filled.
