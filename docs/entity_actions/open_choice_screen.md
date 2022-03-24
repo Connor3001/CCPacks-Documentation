@@ -1,7 +1,5 @@
 ### Open Choice Screen
 
-[Block Action](../block_actions.md).
-
 Opens the choice screen for the player, allowing for them to select a specific choice.
 
 Type ID: `ccpacks:open_choice_screen`
@@ -10,7 +8,7 @@ Type ID: `ccpacks:open_choice_screen`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`choice_layer` | [Identifier](../data_types/identifier.md) |  | ID of the choice layer that the action will open.
+`choice_layer` | [Identifier](../data_types/identifier.md) | *manditory* | ID of the choice layer that the action will open.
 
 ### Example
 ```json
