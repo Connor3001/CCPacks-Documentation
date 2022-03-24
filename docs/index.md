@@ -8,7 +8,7 @@ Huge thanks to Apace, who created the libraries that allow CCPacks to have as ma
 
 # General information
 - All custom content supports the Apoli Power system!
-- These powers are identical to the powers used in the Origins Mod, but are granted via the use of items, as apposed to being granted by an origin.
+- These powers are identical to the powers used in the Origins Mod, but are granted via the use of items, blocks, and more.
 - The Origins mod is not required for CCPacks to work, although using both mods together allows for more possibilities in both.
 - Check out our [discord server](https://discord.gg/QRbhVGN5Jn) for distributing and sharing your creations!
 
