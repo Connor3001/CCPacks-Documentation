@@ -6,10 +6,11 @@ This is the format of a JSON file describing a choice. They need to be placed in
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`powers` | [Array](../submodules/apoli-docs/docs/data_types/array.md) of [Identifiers](../submodules/apoli-docs/docs/data_types/identifier.md) | _optional_ | IDs of the powers this choice should have.
-`icon` | [Item Stack](../submodules/apoli-docs/docs/data_types/item_stack.md) | _optional_ | The item stack which is displayed as the icon for the description button for the choice
-`name` | [String](../submodules/apoli-docs/docs/data_types/string.md) | _optional_ | The display name of the choice.
-`description` | [String](../submodules/apoli-docs/docs/data_types/string.md) | _optional_ | The description of the choice.
+`powers` | [Array](../docs/data_types/array.md) of [Identifiers](../docs/data_types/identifier.md) | _optional_ | IDs of the powers this choice should have.
+`icon` | [Item Stack](../docs/data_types/item_stack.md) | _optional_ | The item stack which is displayed as the icon for the description button for the choice
+`name` | [String](../docs/data_types/string.md) | _optional_ | The display name of the choice.
+`description` | [String](../docs/data_types/string.md) | _optional_ | The description of the choice.
+`action_on_chosen` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_condition_types/) | _optional_ | The description of the choice.
 
 ### Example
 
@@ -25,4 +26,4 @@ Field  | Type | Default | Description
     "description": "You can harness mana to use in a staff!"
 }
 ```
-This example choice adds  with a `minecraft:zombie_head` as its icon.
+This example choice adds  with a `minecraft:diamond` as its icon.
