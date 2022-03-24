@@ -1,4 +1,4 @@
-### Trigger Mechanic
+# Trigger Mechanic
 
 [Block Action](../block_actions.md).
 
