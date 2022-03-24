@@ -12,9 +12,6 @@ nav:
             - Fence: block/fences.md
             - Fence Gate: block/fence_gates.md
             - Walls: block/walls.md
-            - Block Properties:
-                - Sounds: block/sounds.md
-                - Materials: block/materials.md
         - Items:
             - Armor: item/armor.md
             - Durable: item/durable.md

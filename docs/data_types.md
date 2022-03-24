@@ -20,4 +20,6 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Item Groups](data_types/item_groups.md)
 * [Item Stack](data_types/item_stack.md)
 * [Status Effect Instance](data_types/status_effect_instance.md)
-
+* [Render Layer](data_types/render_layer.md)
+* [Block Sound Group](data_types/sounds.md)
+* [Materials](data_types/materials.md)
