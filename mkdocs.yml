@@ -93,6 +93,9 @@ plugins:
       version: 8.6.4
       arguments:
           theme: 'neutral'
-      
+          
+markdown_extensions:
+    - admonition
+    
 extra_javascript:
     - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
