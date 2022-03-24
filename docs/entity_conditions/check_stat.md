@@ -1,25 +1,26 @@
-# Change Stat
+# Check Stat
 
-[Entity Action](../entity_actions.md).
+[Entity Condition](../entity_conditions.md).
 
-Changes the value of a [Star Bar](../power_types/stat_bar.md).
+Checks the value of a [Star Bar](../power_types/stat_bar.md).
 
-Type ID: `ccpacks:change_stat`
+Type ID: `ccpacks:check_stat`
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`stat_bar` | [Identifier](../data_types/integer.md) |  | ID of the power type that defines the stat bar. Must be a [Stat Bar](../power_types/stat_bar.md) which exists on the player.
-`change` | [Integer](../data_types/integer.md) |  | This value will be added to the resource (won't go below 0 or above 20).
-`operation` | [String](../data_types/string.md) | "add" | Determines if the action should add or set the value of the resource. Accepts `"add"` or `"set"`.
+`stat_bar` | [Identifier](../data_types/identifier.md) | *manditory* | ID of the power type that defines the stat bar. Must be a [Stat Bar](../power_types/stat_bar.md) which exists on the player.
+`comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/) | "==" | How the value of the power that will be evaluated should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | 0 | The value to compare the value of the power that will be evaluated to.
 
 ### Example
 ```json
 "entity_action": {
-    "type": "ccpacks:change_stat",
+    "type": "ccpacks:check_stat",
     "stat_bar": "example_pack:mana_bar",
-    "change": 1
+    "comparison": ">",
+	"compare_to": 0
 }
 ```
-This action adds 1 to the `example_pack:mana_bar` [resource](../power_types/resource.md) power. (`data\namespace\powers\example.json`)
+This condition checks to see if `example_pack:mana_bar` [Stat Bar](../power_types/stat_bar.md) has a value greater than 0. (`data\namespace\powers\example.json`)

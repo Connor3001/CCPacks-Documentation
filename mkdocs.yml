@@ -59,6 +59,7 @@ nav:
         - Entity Conditions:
             - Check Stat: entity_conditions/check_stat.md
             - Equipped Trinket: entity_conditions/equipped_trinket.md
+            - Active Power Type: entity_conditions/active_power_type.md
         - Block Conditions:
             - Resource: block_conditions/resource.md
             - Exposed to Sun: block_conditions/exposed_to_sun.md

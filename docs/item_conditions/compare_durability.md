@@ -2,12 +2,14 @@
 
 Checks the durability of a certain item.
 
+Type ID: `ccpacks:compare_durability`
+
 ### Fields:
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison]() | |  In what way to compare the durability the specified value.
-`compare_to` | [Integer]() | | The value to compare durability against.
+`comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/) | "==" |  In what way to compare the durability the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | 0 | The value to compare durability against.
 
 ### Example
 
