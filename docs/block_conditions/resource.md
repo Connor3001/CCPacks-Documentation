@@ -1,4 +1,4 @@
-# Equipped Trinket
+# Resource
 
 !!! note
 	This condition will only work on ccpacks blocks with the [Resource](../mechanic_types/resource.md) Mechanic.
