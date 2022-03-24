@@ -10,9 +10,11 @@ Type ID: `ccpacks:action_on_projectile_land`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`entity_action` | [Entity Action](../submodules/apoli-docs/docs/entity_actions.md) | _optional_ | The entity action to be executed if specified.
-`block_action` | [Block Action](../submodules/apoli-docs/docs/block_actions.md) | _optional_ | The block action to be executed if specified.
-`block_condition` | [Block Condition](../submodules/apoli-docs/docs/block_conditions.md) | _optional_ | If specified, only execute the specified actions if the block condition is fulfilled.
+`projectile` | [Identifier](../data_types/identifier.md) | _optional_ | The identifier of the projectile entity.
+`self_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed on the projectile if specified.
+`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed on the player if specified.
+`block_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | _optional_ | The block action to be executed if specified.
+`block_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | _optional_ | If specified, only execute the specified actions if the block condition is fulfilled.
 
 ### Example
 ```json
@@ -28,4 +30,4 @@ Field | Type | Default | Description
     }
 }
 ```
-This example enables other players to steal diamonds from the player that has the power.
+When any projectile lands, if the block it lands on is a coal block, turn it into a diamond block. 

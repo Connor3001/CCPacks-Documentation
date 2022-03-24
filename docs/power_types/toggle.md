@@ -1,29 +1,29 @@
-# Resource
+# Toggle
 
 [Power Type](../power_types.md).
 
-Defines a stat bar for the player. Basically holds a persistent integer value between 0, and 20, which can be modified by the [Change Stat](../entity_actions/change_stat.md) action and checked with the [Check Stat](../entity_conditions/check_stat.md) player condition.
+A custom version of the Apoli [Toggle](https://origins.readthedocs.io/en/latest/types/power_types/toggle/)
 
-Type ID: `ccpacks:stat_bar`
+Type ID: `ccpacks:toggle`
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`hud_render` | [Stat Bar Hud Render](../data_types/stat_hud_render.md) | | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`start_value` | [Integer](../data_types/integer.md) | 20 | The value of the resource when the player first gains this power.
+`active_by_default` | [Boolean](../data_types/boolean.md) | `true` | Whether this power starts in the on or off state.
+`key` | [Key](../data_types/key.md) | `{"key": "none"}` | Which active key this power should respond to.
+`retain_state` | [Boolean](../data_types/boolean.md) | `true` | Whether this power switches back to default if the condition is no longer met.
+`toggle_on_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed when the power is toggled on.
+`toggle_off_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed when the power is toggled off.
 
 ### Example
 ```json
 {
-    "type": "ccpacks:stat_bar",
-    "start_value": 20,
-    "hud_render": {
-        "should_render": true,
-        "bar_index": 0,
-        "side": "right",
-        "sprite_location": "example_pack:textures/gui/icons.png"
+    "type": "ccpacks:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.use"
     }
 }
 ```
-This power is a stat bar, which creates a bar of the given texture that is already completely filled.
+This example will provide a switch that is not active by default, and can be toggled with the `key.use` keybind.

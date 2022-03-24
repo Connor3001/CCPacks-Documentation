@@ -1,29 +1,17 @@
-# Resource
+# Use as Bundle
 
 [Power Type](../power_types.md).
 
-Defines a stat bar for the player. Basically holds a persistent integer value between 0, and 20, which can be modified by the [Change Stat](../entity_actions/change_stat.md) action and checked with the [Check Stat](../entity_conditions/check_stat.md) player condition.
+Allows an item to be used like a bundle, with a customizable capacity.
 
-Type ID: `ccpacks:stat_bar`
+Type ID: `ccpacks:use_as_bundle`
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`hud_render` | [Stat Bar Hud Render](../data_types/stat_hud_render.md) | | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`start_value` | [Integer](../data_types/integer.md) | 20 | The value of the resource when the player first gains this power.
+`cooldown` | [Integer](../data_types/integer.md) | 64 | the amount of items you can store in the bundle.
+`item_condition` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types/) | _optional_ | Items that fulfil this condition, will be bundle-like.
+
 
 ### Example
-```json
-{
-    "type": "ccpacks:stat_bar",
-    "start_value": 20,
-    "hud_render": {
-        "should_render": true,
-        "bar_index": 0,
-        "side": "right",
-        "sprite_location": "example_pack:textures/gui/icons.png"
-    }
-}
-```
-This power is a stat bar, which creates a bar of the given texture that is already completely filled.
