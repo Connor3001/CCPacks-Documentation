@@ -30,4 +30,4 @@ An object containing a [String](string.md) field, an [Integer](integer.md) field
 }
 ```
 
-An object in the format of a [Status Effect Instance](data_types/status_effect_instance.md), specifying a Slowness II status which lasts for 4 seconds.
+An object in the format of a [Status Effect Instance](status_effect_instance.md), specifying a Slowness II status which lasts for 4 seconds.
