@@ -4,7 +4,15 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 
 ## Apoli-specific
 
+* [Array](data_types/array.md)
+* [Boolean](data_types/boolean.md)
 * [Color](data_types/color.md)
-* [Stat Bar Hud Renderer](data_types/hud_render.md)
+* [Damage Source](data_types/damage_source.md)
+* [Hud Renderer](data_types/hud_render.md)
+* [Identifier](data_types/identifier.md)
+* [Integer](data_types/integer.md)
 * [Item Groups](data_types/item_groups.md)
-* [Tool Types](data_types/tool_types.md)
+* [Item Stack](data_types/item_stack.md)
+* [Object](data_types/object.md)
+* [Status Effect Instance](data_types/status_effect_instance.md)
+* [String](data_types/string.md)

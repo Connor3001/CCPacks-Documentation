@@ -1,10 +1,10 @@
-# Tool Types
+# Item Groups
 
 [Data Type](../data_types.md).
 
 The item groups are the creative mode tab that your item appears in.
 
-# List of Tool Types
+# List of Item Groups
 
   Name                |  Description
 ----------------------|-------------------------------

@@ -8,10 +8,10 @@ An [Object](object.md) used to define how a stat bar should be rendered.
 
 Field  |      Type         | Default | Description
 -------|-------------------|---------|-------------
-`red`  | [Float](../data_types/float.md) | 1.0 | Value by which the red component of the texture will be multiplied. Range: 0 - 1
-`green`| [Float](../data_types/float.md) | 1.0 | Value by which the green component of the texture will be multiplied. Range: 0 - 1
-`blue` | [Float](../data_types/float.md) | 1.0 | Value by which the blue component of the texture will be multiplied. Range: 0 - 1
-`alpha`| [Float](../data_types/float.md) | 1.0 | Value by which the alpha (= transparency) component of the texture will be multiplied. Range: 0 - 1
+`red`  | [Float](float.md) | 1.0 | Value by which the red component of the texture will be multiplied. Range: 0 - 1
+`green`| [Float](float.md) | 1.0 | Value by which the green component of the texture will be multiplied. Range: 0 - 1
+`blue` | [Float](float.md) | 1.0 | Value by which the blue component of the texture will be multiplied. Range: 0 - 1
+`alpha`| [Float](float.md) | 1.0 | Value by which the alpha (= transparency) component of the texture will be multiplied. Range: 0 - 1
 
 ### Examples:
 
@@ -34,5 +34,4 @@ This definition results in a red color.
 	"alpha": 0.5
 }
 ```
-
-This definition results in a slightly transparent blue color
+This definition results in a slightly transparent blue color.

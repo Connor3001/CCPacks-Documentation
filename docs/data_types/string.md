@@ -1,8 +1,3 @@
----
-title: String (Data Type)
-date: 2021-04-04
----
-
 # String
 
 [Data Type](../data_types.md)

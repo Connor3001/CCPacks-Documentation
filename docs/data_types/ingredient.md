@@ -1,8 +1,3 @@
----
-title: Ingredient (Data Type)
-date: 2021-04-04
----
-
 # Ingredient
 
 [Data Type](../data_types.md)

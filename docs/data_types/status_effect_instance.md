@@ -1,8 +1,3 @@
----
-title: Status Effect Instance (Data Type)
-date: 2021-04-04
----
-
 # Status Effect Instance
 
 [Data Type](../data_types.md)

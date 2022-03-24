@@ -1,8 +1,3 @@
----
-title: Array (Data Type)
-date: 2021-04-04
----
-
 # Array
 
 [Data Type](../data_types.md)
@@ -35,4 +30,4 @@ An array of [Strings](string.md).
 ]
 ```
 
-An array of [Entity Condition Types](../entity_condition_types.md).
+An array of [Entity Condition Types](https://origins.readthedocs.io/en/latest/types/entity_condition_types/).
