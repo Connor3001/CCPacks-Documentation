@@ -1,7 +1,5 @@
 # Trigger Mechanic
 
-[Block Action](../block_actions.md).
-
 !!! note
 	This action will only work on ccpacks blocks with the [Triggerable](../mechanic_types/triggerable.md) Mechanic.
 
@@ -13,7 +11,7 @@ Type ID: `ccpacks:trigger_mechanic`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`mechanic` | [Identifier](../data_types/identifier.md) |  | ID of the mechanic type that defines the resource. Must be a [Triggerable](../mechanic_types/triggerable.md) which exists on the block.
+`mechanic` | [Identifier](../data_types/identifier.md) | *optional* | ID of the mechanic type that defines the resource. Must be a [Triggerable](../mechanic_types/triggerable.md) which exists on the block.
 
 ### Example
 ```json

@@ -1,6 +1,4 @@
-# Change Stat
-
-[Block Condition](../block_conditions.md).
+# Exposed to Sun
 
 Checks if the block is exposed to sunlight.
 

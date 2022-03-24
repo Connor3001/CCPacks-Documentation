@@ -1,7 +1,5 @@
 # Change Resource
 
-[Block Action](../block_actions.md).
-
 !!! note
 	This action will only work on ccpacks blocks with the [Resource](../mechanic_types/resource.md) Mechanic.
 
