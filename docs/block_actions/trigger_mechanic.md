@@ -5,7 +5,7 @@
 !!! note
 	This action will only work on ccpacks blocks with the [Triggerable](../mechanic_types/triggerable.md) Mechanic.
 
-Triggers a neighbouring block's mechanic. 
+Triggers a block's mechanic. Useful with the [Offset](https://origins.readthedocs.io/en/latest/types/block_action_types/offset/) meta action. 
 
 Type ID: `ccpacks:trigger_mechanic`
 
