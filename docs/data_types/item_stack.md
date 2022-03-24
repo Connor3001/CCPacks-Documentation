@@ -5,18 +5,18 @@ date: 2021-04-04
 
 # Item Stack
 
-[Data Type](../data_types.md)
+[Data Type](../data_types)
 
-An [Object](object.md) which defines a new item stack.
+An [Object](../object) which defines a new item stack.
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`item` | [Identifier](identifier.md) | | ID of a registered item.
-`amount` | [Integer](integer.md) | `1` | Size of the stack.
-`tag` | [String](string.md) | _optional_ | NBT data of the item.
+`item` | [Identifier](identifier) | | ID of a registered item.
+`amount` | [Integer](integer) | `1` | Size of the stack.
+`tag` | [String](string) | _optional_ | NBT data of the item.
 
 
 ### Examples
