@@ -1,18 +1,19 @@
 # Custom Durable Items
 
+Type ID: `item:durable`
+
 ### Fields
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`item_group`| [Item Group](../../data_types/item_groups) | `misc` | The tab you can find the item in.
 `name` | [String](../../data_types/string) | *optional* | Sets the items name.
-`repair_item` | [Identifier](../submodules/apoli-docs/docs/data_types/identifier.md) | *optional* | The item used to repair this item.
-`lore` | [String [array]](../submodules/apoli-docs/docs/data_types/string.md) | *optional* | Lines of text below an item.
-`durability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *mandatory* | How many uses the item has.
-`fuel_tick` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
-`start_colour` | [Color Holder]() | *optional* | The start colour gradient of the Durability bar.
-`end_colour` | [Color Holder]() | *optional* | The end colour gradient of the Durability bar.
-`item_powers` | [Item Power [array]]() | *optional* | The powers your item will have.
+`lore` | [Array](../data_types/array.md) of [String](../data_types/string.md) | *optional* | Lines of text below an item.
+`item_powers` | [Array](../data_types/array.md) of [Item Power](../data_types/item_power.md) | *optional* | The powers your item will have.
+`durability` | [Integer](../data_types/integer.md) | *mandatory* | How many uses the item has.
+`item_group`| [Item Group](../data_types/item_groups.md) | `misc` | The tab you can find the item in.
+`fuel_tick` | [Integer](../data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
+`start_colour` | [Colour](../data_types/colour.md) | *optional* | The start colour gradient of the Durability bar.
+`end_colour` | [Colour](../data_types/colour.md) | *optional* | The end colour gradient of the Durability bar.
 
 ### Example Code
 

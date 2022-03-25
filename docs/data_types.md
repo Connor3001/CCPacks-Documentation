@@ -13,7 +13,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 
 ## Apoli-specific
 
-* [Color](data_types/color.md)
+* [Colour](data_types/colour.md)
 * [Damage Source](data_types/damage_source.md)
 * [Hud Renderer](data_types/hud_render.md)
 * [Identifier](data_types/identifier.md)

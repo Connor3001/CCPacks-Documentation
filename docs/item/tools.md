@@ -1,22 +1,25 @@
 # Custom Tools
 
+Type IDs: `item:axe`, `item:pickaxe`, `item:shovel`, `item:hoe`
+
 ### Fields
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`item_group`| [Item Group](../../data_types/item_groups) | `misc` | The tab you can find the item in.
-`item_powers` | [Item Power [array]]() | *optional* | The powers your item will have.
-`start_colour` | [Color Holder]() | *optional* | The start colour gradient of the Durability bar.
-`end_colour` | [Color Holder]() | *optional* | The end colour gradient of the Durability bar.
-`fuel_tick` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
-`durability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *10* | How many uses the item has.
-`mining_speed_multiplier` | [Float](../submodules/apoli-docs/docs/data_types/float.md) | *0* | (unknown, if you know, tell me on the discord)
-`attack_damage` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *0* | the amount of damage that a weapon does.
-`attack_speed` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *0* | How fast you can swing the weapon.
-`mining_level` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *optional* | doesn't actually do anything on swords.
-`enchantability` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *0* | How likely you are to get good enchantments.
-`repair_item` | [Identifier](../submodules/apoli-docs/docs/data_types/identifier.md) | *optional* | The item used to repair this item.
-`lore` | [String [array]](../submodules/apoli-docs/docs/data_types/string.md) | *optional* | Lines of text below an item.
+`name` | [String](../data_types/string.md) | *optional* | Sets the items name.
+`lore` | [Array](../data_types/array.md) of [String](../data_types/string.md) | *optional* | Lines of text below an item.
+`item_powers` | [Array](../data_types/array.md) of [Item Power](../data_types/item_power.md) | *optional* | The powers your item will have.
+`durability` | [Integer](../data_types/integer.md) | *10* | How many uses the item has.
+`item_group`| [Item Group](../data_types/item_groups.md) | `misc` | The tab you can find the item in.
+`start_colour` | [Colour](../data_types/colour.md) | *optional* | The start colour gradient of the Durability bar.
+`end_colour` | [Colour](../data_types/colour.md) | *optional* | The end colour gradient of the Durability bar.
+`fuel_tick` | [Integer](../data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
+`mining_speed_multiplier` | [Float](../data_types/float.md) | *0* | (unknown, if you know, tell me on the discord)
+`attack_damage` | [Integer](../data_types/integer.md) | *0* | the amount of damage that a weapon does.
+`attack_speed` | [Integer](../data_types/integer.md) | *0* | How fast you can swing the weapon.
+`mining_level` | [Integer](../data_types/integer.md) | *optional* | doesn't actually do anything on swords.
+`enchantability` | [Integer](../data_types/integer.md) | *0* | How likely you are to get good enchantments.
+`repair_item` | [Identifier](../data_types/identifier.md) | *optional* | The item used to repair this item.
 
 ### Example Code
 

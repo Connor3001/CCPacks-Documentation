@@ -1,8 +1,8 @@
-# Color
+# Colour
 
 [Data Type](../data_types.md).
 
-An [Object](object.md) used to define how a stat bar should be rendered.
+An [Object](object.md) that holds RGBA values
 
 ### Fields:
 
@@ -16,22 +16,22 @@ Field  |      Type         | Default | Description
 ### Examples:
 
 ```json
-"color": {
+"colour": {
 	"red": 1,
 	"green": 0,
 	"blue": 0
 }
 ```
 
-This definition results in a red color.
+This definition results in a red colour.
 <br>
 
 ```json
-"color": {
+"colour": {
 	"red": 0,
 	"green": 0,
 	"blue": 1,
 	"alpha": 0.5
 }
 ```
-This definition results in a slightly transparent blue color.
+This definition results in a slightly transparent blue colour.

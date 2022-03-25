@@ -1,13 +1,15 @@
 # Particles
 
+Type ID: `particle:generic`
+
 ### Fields
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`color` | [Color](data_types/color.md) | *mandatory* | The identifier is what the particle appears as in the /particle command.
-`size` | [Float](../submodules/apoli-docs/docs/data_types/float.md) | *mandatory* | does the particle glow?
-`max_age` | [Integer](../submodules/apoli-docs/docs/data_types/integer.md) | *mandatory* | does the particle glow?
-`collides_with_world` | [Boolean](../submodules/apoli-docs/docs/data_types/boolean.md) | *mandatory* | does the particle glow?
+`colour` | [Colour](../data_types/colour.md) | (1,1,1,1) | Determines the particles colour.
+`size` | [Float](../data_types/float.md) | 0.25 | How large the particle is.
+`max_age` | [Integer](../data_types/integer.md) | 100 | How long the particle last for (in ticks).
+`collides_with_world` | [Boolean](../data_types/boolean.md) | false | Does the particle collide with the world?
 
 ### Example Code
 

@@ -1,14 +1,17 @@
 # Item Projectile
 
+Type ID: `projectile:item`
+
 ### Fields
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`damage` | [Integer](../submodules/apoli-docs/docs/data_types/integer/) | *mandatory* | The block that the portal is made out of.
-`height` | [Float](../submodules/apoli-docs/docs/data_types/float/) | *mandatory* | The Item used to ignite the portal with.
-`width` | [Float](../submodules/apoli-docs/docs/data_types/float/) | *mandatory* | The dimension that the portal takes you to.
-`base_item` | [Identifier](../submodules/apoli-docs/docs/data_types/identifier/) | *optional* | The red value of the portal.
-`damage_source` | [Damage Source](../submodules/apoli-docs/docs/misc/vanilla_damage_sources) | *optional* | The red value of the portal.
+`damage` | [Integer](../data_types/integer.md) | 0 | The damage that the projectile will deal.
+`height` | [Float](../data_types/float.md) | 0.25 | The height of the projectile.
+`width` | [Float](../data_types/float.md) | 0.25 | The width of the projectile.
+`gravity` | [Float](../data_types/float.md) | 0.03 | The gravity that the projectile will have.
+`base_item` | [Identifier](../data_types/identifier.md) | *manditory* | The item that the projectile will look like.
+`damage_source` | [Damage Source](../data_types/damage_source.md) | *manditory* | The damage source that the projectile deals.
 
 ### Example Code
 
