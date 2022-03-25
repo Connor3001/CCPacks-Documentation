@@ -16,9 +16,9 @@ Type ID: `block:fence`
 `slipperiness` | [Float](../data_types/float.md) | *0.6f* | How slippery the block is to walk on.
 `resistance` | [Integer](../data_types/integer.md) | *3* | How immune to explosions the block is (3 is stone, 1500 is obsidian).
 `luminance` | [Integer](../data_types/integer.md) | *0* | The light level that the block gives off.
-`mining_level` | [Integer](../data_types/integer.md) | *1* | What mining level you have to be in order to break the block.
+`requires_tool` | [boolean](../data_types/boolean.md) | false | Should the block require a tool to break?
 `loot_table` | [Identifier](../data_types/identifier.md) | *optional* | The loot table for the block that is dropped when this block is broken.
-`block_item` | [Block Item](../data_types/block_item.md) | *optional* | An object for creating an item for the block.
+`block_item` | [Block Item](../items/generic.md) | *optional* | An object for creating an item for the block.
 
 ### Example Code
 
