@@ -12,6 +12,8 @@ Type ID: `item:armor`
 `durability` | [Integer](../data_types/integer.md) | *10* | How many uses the item has.
 `slot` | [String](../data_types/string.md) | *optional* | Which equipped item to execute the action on. One of: `"head"`, `"chest"`, `"legs"`, `"feet"`.
 `item_group`| [Item Group](../data_types/item_groups.md) | `misc` | The tab you can find the item in.
+`start_colour` | [Colour](../data_types/colour.md) | *optional* | The start colour gradient of the Durability bar.
+`end_colour` | [Colour](../data_types/colour.md) | *optional* | The end colour gradient of the Durability bar.
 `fuel_tick` | [Integer](../data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
 `texture` | [String](../data_types/string.md) | *mandatory* | The name of the image files used to texture the armor.
 `protection` | [Integer](../data_types/integer.md) | *0* | the amount of damage that a weapon does.
