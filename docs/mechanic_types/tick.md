@@ -15,3 +15,17 @@ Field  | Type | Default | Description
 `block_condition` | [Block Condition Types](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the block action.
 
 ### Example
+```json
+{
+	"type": "ccpacks:tick",
+	"interval": 100,
+	"block_action": {
+		"type": "origins:explode",
+		"power": 5,
+		"destruction_type": "none",
+		"damage_self": false,
+		"create_fire": false
+	}
+}
+```
+This mechanic will create an explosion at the block every 5 seconds (100 ticks).
