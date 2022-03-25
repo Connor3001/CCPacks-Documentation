@@ -27,6 +27,9 @@ nav:
         - Features:
             - Ore Generation: features/ore_gen.md
             - Tree Generation: features/tree_gen.md
+        - Item Groups:
+            - Generic: item_groups/generic.md
+            - Tabbed: item_groups/tabbed.md
         - Status Effects: 
             - Neutral: status_effect/neutral.md
             - Beneficial: status_effect/beneficial.md
