@@ -15,3 +15,13 @@ Field  | Type | Default | Description
 `block_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the block action.
 
 ### Example
+```json
+{
+	"type": "ccpacks:on_use",
+	"entity_action": {
+		"type": "origins:heal",
+		"amount": 6
+	}
+}
+```
+This mechanic will heal the player by 3 hearts when they interact with it.

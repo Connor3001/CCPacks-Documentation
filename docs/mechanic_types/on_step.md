@@ -15,3 +15,17 @@ Field  | Type | Default | Description
 `block_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the block action.
 
 ### Example
+```json
+{
+	"type": "ccpacks:on_step",
+	"entity_action": {
+		"type": "origins:set_on_fire",
+		"duration": 5
+	},
+	"block_action": {
+		"type": "origins:set_block",
+		"block": "minecraft:air"
+	}
+}
+```
+This mechanic will set the player on fire and remove the block.
