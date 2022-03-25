@@ -1,8 +1,8 @@
-# Stat Bar
+# Tick
 
 [Mechanic Type](../mechanic_types.md).
 
-Defines a stat bar for the player. Basically holds a persistent integer value between 0, and 20, which can be modified by the [Change Stat](../entity_actions/change_stat.md) action and checked with the [Check Stat](../entity_conditions/check_stat.md) player condition.
+A Mechanic that is run every x ticks.
 
 Type ID: `ccpacks:tick`
 
