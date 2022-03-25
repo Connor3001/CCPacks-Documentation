@@ -23,3 +23,4 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Render Layer](data_types/render_layer.md)
 * [Block Sound Group](data_types/sounds.md)
 * [Materials](data_types/materials.md)
+* [Item Powers](data_types/item_powers.md)
