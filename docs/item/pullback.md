@@ -15,14 +15,13 @@ Type ID: `item:pullback`
 `end_color` | [Colour](../data_types/colour.md) | *optional* | How many uses the item has.
 `fuel_tick` | [Integer](../data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
 `entity_type` | [Entity Type](../data_types/integer.md) | *optional* | The entity fired when you finish pulling it back.
-`max_count` | [Integer](../data_types/integer.md) | *64* | The maximum stack count for the item (Max: 64).
+`max_speed` | [Integer](../data_types/integer.md) | *64* | The maximum speed it will launch a projectile at.
 
 ### Example Code
 
 ```json
 {
 	"type": "item:pullback",
-	"item_group": "materials",
-	"max_count": 64
+	"item_group": "none"
 }
 ```
