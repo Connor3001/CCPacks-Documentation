@@ -11,8 +11,8 @@ Type ID: `ccpacks:action_on_projectile_land`
 Field | Type | Default | Description
 ------|------|---------|-------------
 `projectile` | [Identifier](../data_types/identifier.md) | _optional_ | The identifier of the projectile entity.
-`self_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed on the projectile if specified.
-`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed on the player if specified.
+`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed on the projectile if specified.
+`self_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed on the player if specified.
 `block_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | _optional_ | The block action to be executed if specified.
 `block_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | _optional_ | If specified, only execute the specified actions if the block condition is fulfilled.
 
