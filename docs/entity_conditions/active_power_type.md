@@ -14,3 +14,13 @@ Field  | Type | Default | Description
 
 
 ### Examples
+```json
+"condition": {
+  	"type": "ccpacks:active_power_type",
+      "power_type": "apoli:elytra_flight",
+      "blacklisted_powers": [
+          "example:elytra_power"
+      ]
+}
+```
+This will return true if the player has any elytra flight power that isnt "example:elytra_power".

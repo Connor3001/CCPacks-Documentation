@@ -13,7 +13,7 @@
 
 ```json
 {
-	"type": "portal:vertical",
+	"type": "portal:horizontal",
 	"block": "minecraft:end_stone",
 	"ignition_item": "minecraft:heart_of_the_sea",
 	"dimension": "minecraft:the_end",
