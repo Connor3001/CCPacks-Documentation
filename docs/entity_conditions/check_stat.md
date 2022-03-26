@@ -16,7 +16,7 @@ Field  | Type | Default | Description
 
 ### Example
 ```json
-"entity_action": {
+"condition": {
     "type": "ccpacks:check_stat",
     "stat_bar": "example_pack:mana_bar",
     "comparison": ">",
