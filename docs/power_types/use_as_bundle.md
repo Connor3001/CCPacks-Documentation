@@ -10,7 +10,7 @@ Type ID: `ccpacks:use_as_bundle`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`hold_amount` | [Integer](../data_types/integer.md) | 64 | the amount of items you can store in the bundle.
+`hold_amount` | [Integer](../data_types/integer.md) | `64` | the amount of items you can store in the bundle.
 `item_condition` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types/) | _optional_ | Items that fulfil this condition, will be bundle-like.
 
 
@@ -20,7 +20,7 @@ Field  | Type | Default | Description
 	"type": "ccpacks:use_as_bundle",
 	"hold_amount": 64,
 	"item_condition": {
-		"type": "origins:nbt",
+		"type": "apoli:nbt",
 		"nbt": "{isBundle:1b}"
 	}
 }

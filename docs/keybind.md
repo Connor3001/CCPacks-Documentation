@@ -18,3 +18,5 @@ Type ID: `keybind:apoli`
 	"category": "example_pack_keybinds"
 }
 ```
+
+This example would create a keybind with the ID `key.ccpacks.winged_boost`, which would appear in the Keybind category `example_pack_keybinds`.

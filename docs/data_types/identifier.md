@@ -16,7 +16,7 @@ Read more here: [Minecraft Fandom Wiki: Namespaced ID](https://minecraft.fandom.
 
 ```json
 {
-	"type": "origins:block",
+	"type": "apoli:block",
 	"block": "iron_ore"
 }
 ```
@@ -26,9 +26,9 @@ A `block` identifier specifying iron ore. The namespace is not specified, thus d
 
 ```json
 {
-	"type": "origins:origin",
-	"origin": "origins-classes:stealth"
+	"type": "apoli:power",
+	"power": "test:example_power"
 }
 ```
 
-An `origin` identifier specifying the stealth status effect added by the Origins: Classes add-on.
+A `power` identifier specifying the `test:example_power` power (located on `data/test/powers/example_power.json`).

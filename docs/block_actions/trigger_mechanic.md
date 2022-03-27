@@ -1,9 +1,9 @@
 # Trigger Mechanic
 
 !!! note
-	This action will only work on ccpacks blocks with the [Triggerable](../mechanic_types/triggerable.md) Mechanic.
+	This action will only work on CCPacks blocks with the [Triggerable (Mechanic Types)](../mechanic_types/triggerable.md) Mechanic.
 
-Triggers a block's mechanic. Useful with the [Offset](https://origins.readthedocs.io/en/latest/types/block_action_types/offset/) meta action. 
+Triggers a block's mechanic. Useful with the [Offset (Block Action Type)](https://origins.readthedocs.io/en/latest/types/block_action_types/offset/) meta action.
 
 Type ID: `ccpacks:trigger_mechanic`
 
@@ -16,7 +16,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 "block_action": {
-  	"type": "ccpacks:trigger_mechanic",
+	"type": "ccpacks:trigger_mechanic",
 	"mechanic": "example_pack:smelt"
 }
 ```

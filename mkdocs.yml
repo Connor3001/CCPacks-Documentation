@@ -30,14 +30,14 @@ nav:
         - Item Groups:
             - Generic: item_groups/generic.md
             - Tabbed: item_groups/tabbed.md
-        - Status Effects: 
+        - Status Effects:
             - Neutral: status_effect/neutral.md
             - Beneficial: status_effect/beneficial.md
             - Harmful: status_effect/harmful.md
         - Enchantments:
             - Generic: enchantment/generic.md
             - Curse: enchantment/curse.md
-        - Portals: 
+        - Portals:
             - Vertical: portal/vertical.md
             - Horizontal: portal/horizontal.md
         - Keybind: keybind.md
@@ -70,7 +70,7 @@ nav:
         - Data Types: data_types.md
         - Choice JSON: choice_json.md
         - Layer JSON: layer_json.md
-        
+
 
 theme:
   name: material
@@ -95,9 +95,9 @@ plugins:
       version: 8.6.4
       arguments:
           theme: 'neutral'
-          
+
 markdown_extensions:
     - admonition
-    
+
 extra_javascript:
     - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js

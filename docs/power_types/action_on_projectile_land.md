@@ -1,4 +1,4 @@
-# Action On Being Used
+# Action On Projectile Land
 
 [Power Type](../power_types.md)
 
@@ -19,15 +19,15 @@ Field | Type | Default | Description
 ### Example
 ```json
 {
-    "type": "apoli:action_on_projectile_land",
-    "block_action": {
+	"type": "apoli:action_on_projectile_land",
+	"block_action": {
 		"type": "apoli:set_block",
 		"block": "minecraft:diamond_block"
 	},
-    "block_condition": {
-        "type": "apoli:block",
+	"block_condition": {
+		"type": "apoli:block",
 		"block": "minecraft:coal_block"
-    }
+	}
 }
 ```
-When any projectile lands, if the block it lands on is a coal block, turn it into a diamond block. 
+When any projectile lands, if the block it lands on is a coal block, turn it into a diamond block.

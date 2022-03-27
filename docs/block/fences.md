@@ -6,18 +6,18 @@ Type ID: `block:fence`
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`material` | [Material](../data_types/materials.md) | *manditory* | An Object that determines some behaviours of the block.
-`mechanics` | [Array](../data_types/array.md) of [Mechanic Type](../mechanic_types.md) | *optional* | A list of [Mechanic Type](../mechanic_types.md) that the block will have.
-`render_layer` | [Render Layer](../data_types/render_layer.md) | *Solid* | The blocks render layer `ewsagsfv`.
+`material` | [Material](../data_types/materials.md) | | An Object that determines some behaviours of the block.
+`mechanics` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | *optional* | The namespace and IDs of the Block Mechanics this block will have.
+`render_layer` | [Render Layer](../data_types/render_layer.md) | `"solid"` | The blocks render layer `ewsagsfv`.
 `block_sound_group` | [Block Sound Group](../data_types/sounds.md) | *optional* | The sounds related to the player moving and walking on the block.
-`collidable` | [Boolean](../data_types/boolean.md) | *true* | Wether you can walk through the block or not
-`transparent` | [Boolean](../data_types/boolean.md) | *false* | Sets the block to be `nonOpaque`.
-`hardness` | [Integer](../data_types/integer.md) | *3* | How long it takes to break (3 is stone 50 is obsidian).
-`slipperiness` | [Float](../data_types/float.md) | *0.6f* | How slippery the block is to walk on.
-`resistance` | [Integer](../data_types/integer.md) | *3* | How immune to explosions the block is (3 is stone, 1500 is obsidian).
-`luminance` | [Integer](../data_types/integer.md) | *0* | The light level that the block gives off.
-`requires_tool` | [boolean](../data_types/boolean.md) | false | Should the block require a tool to break?
-`loot_table` | [Identifier](../data_types/identifier.md) | *optional* | The loot table for the block that is dropped when this block is broken.
+`collidable` | [Boolean](../data_types/boolean.md) | `true` | Whether you can walk through the block or not.
+`transparent` | [Boolean](../data_types/boolean.md) | `false` | If set to true, makes the block `nonOpaque`.
+`hardness` | [Integer](../data_types/integer.md) | `3` | How long the block takes to break (3 is stone 50 is obsidian).
+`slipperiness` | [Float](../data_types/float.md) | `0.6` | How slippery the block is to walk on.
+`resistance` | [Integer](../data_types/integer.md) | `3` | Short for "Blast Resistance". Defines how resistant to explosions the block will be (3 is stone, 1500 is obsidian).
+`luminance` | [Integer](../data_types/integer.md) | `0` | The light level that the block gives off.
+`requires_tool` | [boolean](../data_types/boolean.md) | `false` | If set to true, the block will require a specific tool to be broken.
+`loot_table` | [Identifier](../data_types/identifier.md) | *optional* | The loot table that the block uses to define what to drop when broken.
 `block_item` | [Block Item](../items/generic.md) | *optional* | An object for creating an item for the block.
 
 ### Example Code

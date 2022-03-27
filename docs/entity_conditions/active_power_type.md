@@ -9,8 +9,8 @@ Type ID: `ccpacks:active_power_type`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`power_type` | [Identifier](../data_types/identifier.md) | *manditory* | The namespace ID of the power type which will be checked to see if any are active.
-`blacklisted_powers` | [Array](../data_types/array.md) of [Identifier](../data_types/identifier.md) | *manditory* | The namespace IDs of powers that will be excluded from the check.
+`power_type` | [Identifier](../data_types/identifier.md) | | The namespaced ID of the power type which will be checked to see if any are active.
+`blacklisted_powers` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | | The namespaced IDs of powers that will be excluded from the check.
 
 
 ### Examples
@@ -23,4 +23,4 @@ Field  | Type | Default | Description
       ]
 }
 ```
-This will return true if the player has any elytra flight power that isnt "example:elytra_power".
+This will return true if the player has any elytra flight power that isn't "example:elytra_power".

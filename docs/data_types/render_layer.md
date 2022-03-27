@@ -7,6 +7,6 @@ Render layers are how the block is rendered.
 
   Name                |  Description
 ----------------------|-------------------------------
-  `solid`    	      |  Regular block rendering.
+  `solid`    	        |  Regular block rendering.
   `cutout`            |  Leaf-like blocks that have gaps in the texture.
-  `translucent`       |  Slime-like blocks that you can see through, but aren't clear.
+  `translucent`       |  Slime-like blocks that you can see through, but aren't fully clear.

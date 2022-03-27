@@ -2,7 +2,7 @@
 
 [Power Type](../power_types.md).
 
-A custom version of the Apoli [Toggle](https://origins.readthedocs.io/en/latest/types/power_types/toggle/)
+A custom version of Apoli [Toggle (Power Type)](https://origins.readthedocs.io/en/latest/types/power_types/toggle/)
 
 Type ID: `ccpacks:toggle`
 

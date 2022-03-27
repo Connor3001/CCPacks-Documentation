@@ -6,11 +6,12 @@ Type ID: `ccpacks:exposed_to_sun`
 
 ### Fields
 
-This condition has no fields.
+_None_
 
 ### Example
 ```json
 "block_condition": {
-    "type": "ccpacks:exposed_to_sun"
+    "type": "ccpacks:exposed_to_sun",
+    "inverted": true
 }
 ```

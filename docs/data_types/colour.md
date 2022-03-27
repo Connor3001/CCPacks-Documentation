@@ -1,8 +1,11 @@
-# Colour
+# Colour Holder
 
 [Data Type](../data_types.md).
 
 An [Object](object.md) that holds RGBA values
+
+!!! note
+		The name of this Data Type is "colour", not "color"! Be careful not to misspell it!
 
 ### Fields:
 
@@ -34,4 +37,4 @@ This definition results in a red colour.
 	"alpha": 0.5
 }
 ```
-This definition results in a slightly transparent blue colour.
+This definition results in a blue colour with half opacity.

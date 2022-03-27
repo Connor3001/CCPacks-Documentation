@@ -1,7 +1,7 @@
 # Mechanic Types
 
 Mechanics are what grants functionality to blocks! Each mechanic has a type, specified with
-a `type` field in the JSON. Which type a mechanic is defines which other fields it requires and supports.
+a `type` field in the JSON. Which type a mechanic has defines which other fields it requires and supports.
 
 ## Regular types
 
