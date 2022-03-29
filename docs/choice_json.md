@@ -26,4 +26,4 @@ Field  | Type | Default | Description
     "description": "You can harness mana to use in a staff!"
 }
 ```
-This example choice adds  with a `minecraft:diamond` as its icon.
+This example choice adds with a `minecraft:diamond` as its icon.

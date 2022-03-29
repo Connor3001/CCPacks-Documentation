@@ -6,11 +6,11 @@ Type ID: `enchantment:generic`
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`treasure` | [Boolean](../data_types/boolean.md) | false | Is this enchantment considered treasure?
-`target` | [Enchantment Target](../data_types/enchantment_target.md) | *breakable* | What type of item this will go on.
-`max_level` | [Render Layer](../data_types/render_layer.md) | *1* | The maximum level you can get with the enchantment.
-`rarity` | [Rarity](../data_types/rarity.md) | *very_rare* | Sets the rarity of the enchantment. Values: `common`, `uncommon`, `rare`, `very_rare`
-`blacklist` | [Array](../data_types/array.md) od [Identifier](../data_types/identifier.md) | *optional* | A list of enchantments that you cannot have with this.
+`treasure` | [Boolean](boolean.md) | `false` | Is this enchantment considered treasure?
+`target` | Enchantment Target (Undocumented) | `"breakable"` | What type of item this will go on.
+`max_level` | [Integer](../data_types/integer.md) | `1` | The maximum level you can get with the enchantment.
+`rarity` | [String](../data_types/string.md) | `"very_rare"` | Sets the rarity of the enchantment. Accepts `"common"`, `uncommon`, `rare` and `very_rare`
+`blacklist` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | *optional* | A list of enchantments that you cannot have with this.
 
 ### Example Code
 

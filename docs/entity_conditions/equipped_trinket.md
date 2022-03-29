@@ -8,7 +8,7 @@ Type ID: `ccpacks:equipped_trinket`
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`item_condition` | [Item Condition](https://origins.readthedocs.io/en/latest/types/item_condition_types/) | *mandatory* | The items that are searched for in the trinket slots.
+`item_condition` | [Item Condition](https://origins.readthedocs.io/en/latest/types/item_condition_types/) | | The items that are searched for in the trinket slots.
 
 ### Example
 ```json

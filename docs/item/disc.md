@@ -6,13 +6,13 @@ Type ID: `item:music_disc`
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`name` | [String](../data_types/string.md) | *optional* | Sets the items name.
-`lore` | [Array](../data_types/array.md) of [String](../data_types/string.md) | *optional* | Lines of text below an item.
-`item_powers` | [Array](../data_types/array.md) of [Item Power](../data_types/item_power.md) | *optional* | The powers your item will have.
-`item_group`| [Item Group](../data_types/item_groups.md) | `misc` | The tab you can find the item in.
-`fuel_tick` | [Integer](../data_types/integer.md) | *optional* | How long the item can smelt for in a furnace.
-`comparator_output` | [Integer](../data_types/integer.md) | 1 | The signal strength a comparator outputs from this disc
-`sound` | [Identifier](../data_types/identifier.md) | *mandatory* | the sound event that the disc uses.
+`name` | [String](../data_types/string.md) | *optional* | The display name of the item. Can be a literal string or a translation key. If none is given, it'll default to `item.namespace.path`.
+`lore` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | *optional* | Lines of text below an item.
+`item_powers` | [Array](../data_types/array.md) of [Item Powers](../data_types/item_power.md) | *optional* | The powers your item will have.
+`item_group` | [Item Group](../data_types/item_groups.md) | `"misc"` | The tab you can find the item in.
+`fuel_tick` | [Integer](../data_types/integer.md) | `0` | How long the item can smelt for in a furnace.
+`comparator_output` | [Integer](../data_types/integer.md) | `1` | The signal strength a comparator outputs from this disc.
+`sound` | [Identifier](../data_types/identifier.md) | | the sound event that the disc uses.
 
 ### Example Code
 

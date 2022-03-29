@@ -9,7 +9,7 @@ Layer files need to be placed inside the `choice_layers` folder within your name
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `choices` | [Array](data_types/array.md) of [Identifiers](data_types/identifier.md) | | Defines the choices that should be in this layer.
-`enabled` | [Boolean](data_types/boolean.md) | true | If set to false, this layer will be unavailable.
+`enabled` | [Boolean](data_types/boolean.md) | `true` | If set to false, this layer will be unavailable.
 
 ### Example
 

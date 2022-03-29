@@ -10,18 +10,18 @@ Type ID: `ccpacks:triggerable`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`neighbour_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the neighbouring block.
-`neighbour_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the neighbouring block action.
 `self_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block.
 `self_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the self block action.
+`neighbour_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the neighbouring block.
+`neighbour_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the neighbouring block action.
 
 ### Example
 ```json
 {
 	"type": "ccpacks:triggerable",
 	"self_action": {
-		"type": "origins:execute_command",
-		"command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:wheat\",Count:1}}"
+		"type": "origins:spawn_entity",
+		"command": "summon minecraft:item ~ ~1 ~ {Item:{id:\"minecraft:wheat\",Count:1}}"
 	},
 	"self_condition": {
 		"type": "origins:light_level",
@@ -31,4 +31,4 @@ Field  | Type | Default | Description
 	}
 }
 ```
-This mechanic will summon the wheat item once triggered if the light is above 10.
+This example  mechanic will summon a wheat item above the block once it is triggered if the block's light level is above 10.

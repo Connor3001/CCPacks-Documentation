@@ -22,10 +22,10 @@ An array of [Strings](string.md).
 ```json
 "conditions": [
     {
-        "type": "origins:on_fire"
+        "type": "apoli:on_fire"
     },
     {
-        "type": "origins:sprinting"
+        "type": "apoli:sprinting"
     }
 ]
 ```

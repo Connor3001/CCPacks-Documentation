@@ -10,8 +10,8 @@ Type ID: `ccpacks:on_use`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | The action to execute on the player when they interact with the block.
 `block_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block when it is interacted with.
+`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | The action to execute on the player when they interact with the block.
 `block_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the block action.
 
 ### Example

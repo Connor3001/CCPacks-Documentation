@@ -1,10 +1,13 @@
 # Harmful Status Effect
 
+Type ID: `"status_effect:harmful"`
+
 ### Fields
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`colour` | [Colour Holder](../data_types/colour.md) | (1,1,1,1) | The colours used in the potions particle effects. The alpha value doesnt effect this.
+`colour` | [Colour Holder](../data_types/colour.md) | `{"red": 1, "green": 1, "blue": 1, "alpha": 1)` | The colours used in the status effect's particles. The alpha value doesn't affect this.
+
 
 Add functionality using [Power Types](https://origins.readthedocs.io/en/latest/types/power_types/) and [Universal Powers](../universal_powers.md)
 

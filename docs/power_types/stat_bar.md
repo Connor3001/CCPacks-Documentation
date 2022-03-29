@@ -2,7 +2,7 @@
 
 [Power Type](../power_types.md).
 
-Defines a stat bar for the player. Basically holds a persistent integer value between 0, and 20, which can be modified by the [Change Stat](../entity_actions/change_stat.md) action and checked with the [Check Stat](../entity_conditions/check_stat.md) player condition.
+Defines a stat bar for the player. Basically holds a persistent integer value between 0, and 20, which can be modified by the [Change Stat (Entity Action Type)](../entity_actions/change_stat.md) and checked with the [Check Stat (Entity Condition Type)](../entity_conditions/check_stat.md).
 
 Type ID: `ccpacks:stat_bar`
 
@@ -10,8 +10,8 @@ Type ID: `ccpacks:stat_bar`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`hud_render` | [Stat Bar Hud Render](../data_types/stat_hud_render.md) | | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`start_value` | [Integer](../data_types/integer.md) | 20 | The value of the resource when the player first gains this power.
+`hud_render` | [Stat Bar Hud Render](../data_types/hud_render.md) | | Specifies how and if the stat bar is displayed with a bar on the HUD.
+`start_value` | [Integer](../data_types/integer.md) | `20` | The value of the resource when the player first gains this power.
 
 ### Example
 ```json
@@ -29,4 +29,5 @@ Field  | Type | Default | Description
     "description": "You can use mana with your magical staff to activate its powers."
 }
 ```
-This power is a stat bar, which creates a bar of the given texture that is already completely filled.
+
+This example is a stat bar, which creates a bar of the given texture that is already completely filled.

@@ -8,13 +8,14 @@ Type ID: `ccpacks:open_choice_screen`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`choice_layer` | [Identifier](../data_types/identifier.md) | *manditory* | ID of the choice layer that the action will open.
+`choice_layer` | [Identifier](../data_types/identifier.md) | | ID of the choice layer that the action will open.
 
 ### Example
 ```json
 "entity_action": {
-  	"type": "ccpacks:open_choice_screen",
+  "type": "ccpacks:open_choice_screen",
 	"choice_layer": "example_pack:choice"
 }
 ```
-opens the `example_pack:choice` layer for the player.
+
+This example will open the `example_pack:choice` (`data/example_pack/choice_layers/choice.json`) choice layer for the player.
