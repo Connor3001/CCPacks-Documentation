@@ -8,7 +8,7 @@ Type ID: `block:falling`
 -----------|------|---------|-------------
 `material` | [Material](../data_types/materials.md) | | An Object that determines some behaviours of the block.
 `mechanics` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | *optional* | The namespace and IDs of the Block Mechanics this block will have.
-`render_layer` | [Render Layer](../data_types/render_layer.md) | `"solid"` | The blocks render layer `ewsagsfv`.
+`render_layer` | [Render Layer](../data_types/render_layer.md) | `"solid"` | The block's render layer value.
 `block_sound_group` | [Block Sound Group](../data_types/sounds.md) | *optional* | The sounds related to the player moving and walking on the block.
 `collidable` | [Boolean](../data_types/boolean.md) | `true` | Whether you can walk through the block or not.
 `transparent` | [Boolean](../data_types/boolean.md) | `false` | If set to true, makes the block `nonOpaque`.

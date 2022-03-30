@@ -11,10 +11,10 @@ An [Object](object.md) that holds RGBA values
 
 Field  |      Type         | Default | Description
 -------|-------------------|---------|-------------
-`red`  | [Float](float.md) | 1.0 | Value by which the red component of the texture will be multiplied. Range: 0 - 1
-`green`| [Float](float.md) | 1.0 | Value by which the green component of the texture will be multiplied. Range: 0 - 1
-`blue` | [Float](float.md) | 1.0 | Value by which the blue component of the texture will be multiplied. Range: 0 - 1
-`alpha`| [Float](float.md) | 1.0 | Value by which the alpha (= transparency) component of the texture will be multiplied. Range: 0 - 1
+`red`  | [Float](float.md) | `1.0` | Value by which the red component of the texture will be multiplied. Range: 0 - 1
+`green`| [Float](float.md) | `1.0` | Value by which the green component of the texture will be multiplied. Range: 0 - 1
+`blue` | [Float](float.md) | `1.0` | Value by which the blue component of the texture will be multiplied. Range: 0 - 1
+`alpha`| [Float](float.md) | `1.0` | Value by which the alpha (= transparency) component of the texture will be multiplied. Range: 0 - 1
 
 ### Examples:
 
