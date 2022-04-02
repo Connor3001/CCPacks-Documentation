@@ -18,7 +18,7 @@ Type ID: `block:falling`
 `luminance` | [Integer](../data_types/integer.md) | `0` | The light level that the block gives off.
 `requires_tool` | [boolean](../data_types/boolean.md) | `false` | If set to true, the block will require a specific tool to be broken.
 `loot_table` | [Identifier](../data_types/identifier.md) | *optional* | The loot table that the block uses to define what to drop when broken.
-`block_item` | [Block Item](../items/generic.md) | *optional* | An object for creating an item for the block.
+`block_item` | [Block Item](../item/generic.md) | *optional* | An object for creating an item for the block.
 
 ### Example Code
 

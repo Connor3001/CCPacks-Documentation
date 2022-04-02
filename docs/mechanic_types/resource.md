@@ -2,7 +2,7 @@
 
 [Mechanic Type](../mechanic_types.md).
 
-Defines a resource for the block. Holds a persistent integer value, which can be modified by the [Change Resource (Block Action Type)](../block_actions/change_resource.md) and checked with the [Resource (Block Condition Type)](../block_conditions/check_stat.md).
+Defines a resource for the block. Holds a persistent integer value, which can be modified by the [Change Resource (Block Action Type)](../block_actions/change_resource.md) and checked with the [Resource (Block Condition Type)](../block_conditions/resource.md).
 
 Type ID: `ccpacks:resource`
 

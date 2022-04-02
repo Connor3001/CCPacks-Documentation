@@ -1,8 +1,6 @@
 # Check Stat
 
-[Entity Condition](../entity_conditions.md).
-
-checks the value of a [Star Bar](../power_types/stat_bar.md).
+Checks the value of a [Star Bar](../power_types/stat_bar.md).
 
 Type ID: `ccpacks:check_stat`
 
@@ -11,7 +9,7 @@ Type ID: `ccpacks:check_stat`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `stat_bar` | [Identifier](../data_types/identifier.md) | | ID of the power type that defines the stat bar. Must be a [Stat Bar (Power Type)](../power_types/stat_bar.md) which exists on the player.
-`comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/) | `"=="` | How the value of the power that will be evaluated should be compared to the specified value.
+`comparison` | [Comparison](https://apoli.readthedocs.io/en/latest/types/data_types/comparison/) | `"=="` | How the value of the power that will be evaluated should be compared to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | `0` | The value to compare the value of the power that will be evaluated to.
 
 ### Example
