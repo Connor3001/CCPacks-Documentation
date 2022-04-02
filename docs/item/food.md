@@ -14,7 +14,7 @@ Type ID: `item:food`
 `fuel_tick` | [Integer](../data_types/integer.md) | `0` | How long the item can smelt for in a furnace.
 `hunger` | [Integer](../data_types/integer.md) | `4` | how many hunger it fills up (1 = half a bar).
 `saturation` | [Float](../data_types/float.md) | `8.0` | How many saturation points the food fills.
-`meat` | [Boolean](../data_types/boolean.md) | `false` | If set to true, you'll be able to use this item to feed dogs, and it will be identified as meat by the [Meat (Item Condition Type)](https://origins.readthedocs.io/en/latest/types/item_condition_types/meat).
+`meat` | [Boolean](../data_types/boolean.md) | `false` | If set to true, you'll be able to use this item to feed dogs, and it will be identified as meat by the [Meat (Item Condition Type)](https://apoli.readthedocs.io/en/latest/types/item_condition_types/meat).
 `always_edible` | [Boolean](../data_types/boolean.md) | `false` | If set to true, this item will always be edible, even with full hunger.
 `drinkable` | [Boolean](../data_types/boolean.md) | `false` | If true, makes you drink it as if it was milk or a potion.
 `sound` | [Identifier](../data_types/identifier.md) | `"entity.generic.eat"` | The sound that plays while you are eating the item.

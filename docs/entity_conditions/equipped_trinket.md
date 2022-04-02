@@ -1,6 +1,6 @@
 # Equipped Trinket
 
-Checks all the players trinket slots with an [Item Condition](https://origins.readthedocs.io/en/latest/types/item_condition_types/).
+Checks all the players trinket slots with an [Item Condition](https://apoli.readthedocs.io/en/latest/types/item_condition_types/).
 
 Type ID: `ccpacks:equipped_trinket`
 
@@ -8,7 +8,7 @@ Type ID: `ccpacks:equipped_trinket`
 
    Field   | Type | Default | Description
 -----------|------|---------|-------------
-`item_condition` | [Item Condition](https://origins.readthedocs.io/en/latest/types/item_condition_types/) | | The items that are searched for in the trinket slots.
+`item_condition` | [Item Condition](https://apoli.readthedocs.io/en/latest/types/item_condition_types/) | | The items that are searched for in the trinket slots.
 
 ### Example
 ```json

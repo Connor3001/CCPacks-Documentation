@@ -10,9 +10,9 @@ Type ID: `ccpacks:on_step`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block when it is stepped on.
-`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | The action to execute on an entity when they step on the block.
-`block_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the block action.
+`block_action` | [Block Action Type](https://apoli.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block when it is stepped on.
+`entity_action` | [Entity Action Type](https://apoli.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | The action to execute on an entity when they step on the block.
+`block_condition` | [Block Condition Type](https://apoli.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the block action.
 
 ### Example
 ```json

@@ -10,10 +10,10 @@ Type ID: `ccpacks:triggerable`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`self_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block.
-`self_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the self block action.
-`neighbour_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the neighbouring block.
-`neighbour_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the neighbouring block action.
+`self_action` | [Block Action Type](https://apoli.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block.
+`self_condition` | [Block Condition Type](https://apoli.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the self block action.
+`neighbour_action` | [Block Action Type](https://apoli.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the neighbouring block.
+`neighbour_condition` | [Block Condition Type](https://apoli.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked in order to run the neighbouring block action.
 
 ### Example
 ```json

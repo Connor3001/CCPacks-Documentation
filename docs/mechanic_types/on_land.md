@@ -11,9 +11,9 @@ Type ID: `ccpacks:on_land`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `damage_multiplier` | [Float](../data_types/float.md) | `1.0` | Specifies how and if the stat bar is displayed with a bar on the HUD.
-`block_action` | [Block Action Type](https://origins.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block when it is landed on.
-`block_condition` | [Block Condition Type](https://origins.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked on the block in order to run the block action.
-`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | The action to execute on an entity when they land on the block.
+`block_action` | [Block Action Type](https://apoli.readthedocs.io/en/latest/types/block_action_types/) | *optional* | The action to execute on the block when it is landed on.
+`block_condition` | [Block Condition Type](https://apoli.readthedocs.io/en/latest/types/block_condition_types/) | *optional* | The condition to checked on the block in order to run the block action.
+`entity_action` | [Entity Action Type](https://apoli.readthedocs.io/en/latest/types/entity_action_types/) | *optional* | The action to execute on an entity when they land on the block.
 
 ### Example
 ```json

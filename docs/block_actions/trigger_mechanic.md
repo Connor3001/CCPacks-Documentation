@@ -3,7 +3,7 @@
 !!! note
 	This action will only work on CCPacks blocks with the [Triggerable (Mechanic Types)](../mechanic_types/triggerable.md) Mechanic.
 
-Triggers a block's mechanic. Useful with the [Offset (Block Action Type)](https://origins.readthedocs.io/en/latest/types/block_action_types/offset/) meta action.
+Triggers a block's mechanic. Useful with the [Offset (Block Action Type)](https://apoli.readthedocs.io/en/latest/types/block_action_types/offset/) meta action.
 
 Type ID: `ccpacks:trigger_mechanic`
 

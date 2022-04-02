@@ -30,4 +30,4 @@ An array of [Strings](string.md).
 ]
 ```
 
-An array of [Entity Condition Types](https://origins.readthedocs.io/en/latest/types/entity_condition_types/).
+An array of [Entity Condition Types](https://apoli.readthedocs.io/en/latest/types/entity_condition_types/).

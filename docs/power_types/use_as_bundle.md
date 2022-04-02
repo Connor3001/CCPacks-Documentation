@@ -11,7 +11,7 @@ Type ID: `ccpacks:use_as_bundle`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `hold_amount` | [Integer](../data_types/integer.md) | `64` | the amount of items you can store in the bundle.
-`item_condition` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types/) | _optional_ | Items that fulfil this condition, will be bundle-like.
+`item_condition` | [Item Condition Type](https://apoli.readthedocs.io/en/latest/types/item_condition_types/) | _optional_ | Items that fulfil this condition, will be bundle-like.
 
 
 ### Example

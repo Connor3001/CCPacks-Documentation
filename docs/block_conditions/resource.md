@@ -12,7 +12,7 @@ Type ID: `ccpacks:resource`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `resource` | [Identifier](../data_types/identifier.md) | | The namespace ID of a mechanic that will be evaluated.
-`comparison` | [Comparison](https://origins.readthedocs.io/en/latest/types/data_types/comparison/) | `"=="` | How the value of the mechanic that will be evaluated should be compared to the specified value.
+`comparison` | [Comparison](https://apoli.readthedocs.io/en/latest/types/data_types/comparison/) | `"=="` | How the value of the mechanic that will be evaluated should be compared to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | `0` | The value to compare the value of the mechanic that will be evaluated to.
 
 ### Example

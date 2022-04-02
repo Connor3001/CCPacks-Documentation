@@ -11,9 +11,9 @@ Type ID: `ccpacks:item_use`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `cooldown` | [Integer](../data_types/integer.md) | `0` | Sets a cooldown on the item (Similar to ender pearl cooldowns).
-`entity_action` | [Entity Action Type](https://origins.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed on the player if specified.
-`item_action` | [Item Action Type](https://origins.readthedocs.io/en/latest/types/item_action_types/) | _optional_ | The item action to be executed if specified.
-`item_condition` | [Item Condition Type](https://origins.readthedocs.io/en/latest/types/item_condition_types/) | _optional_ | If specified, only execute the action if the item condition is fulfilled.
+`entity_action` | [Entity Action Type](https://apoli.readthedocs.io/en/latest/types/entity_action_types/) | _optional_ | The entity action to be executed on the player if specified.
+`item_action` | [Item Action Type](https://apoli.readthedocs.io/en/latest/types/item_action_types/) | _optional_ | The item action to be executed if specified.
+`item_condition` | [Item Condition Type](https://apoli.readthedocs.io/en/latest/types/item_condition_types/) | _optional_ | If specified, only execute the action if the item condition is fulfilled.
 
 ### Example
 ```json

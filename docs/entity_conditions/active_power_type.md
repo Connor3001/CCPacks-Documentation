@@ -1,6 +1,6 @@
 # Power Active
 
-Checks whether the entity has a power that uses the specified [Power Type](https://origins.readthedocs.io/en/latest/types/power_types/), excluding those in the blacklist, and is "active", meaning that the entity has the power and the power has all its conditions fulfilled.
+Checks whether the entity has a power that uses the specified [Power Type](https://apoli.readthedocs.io/en/latest/types/power_types/), excluding those in the blacklist, and is "active", meaning that the entity has the power and the power has all its conditions fulfilled.
 
 Type ID: `ccpacks:active_power_type`
 

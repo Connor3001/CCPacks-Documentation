@@ -9,7 +9,7 @@ Type ID: `"status_effect:harmful"`
 `colour` | [Colour Holder](../data_types/colour.md) | `{"red": 1, "green": 1, "blue": 1, "alpha": 1)` | The colours used in the status effect's particles. The alpha value doesn't affect this.
 
 
-Add functionality using [Power Types](https://origins.readthedocs.io/en/latest/types/power_types/) and [Universal Powers](../universal_powers.md)
+Add functionality using [Power Types](https://apoli.readthedocs.io/en/latest/types/power_types/) and [Universal Powers](../universal_powers.md)
 
 ### Example Code
 
