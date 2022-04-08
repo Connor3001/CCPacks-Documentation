@@ -1,39 +1,42 @@
-# Color
+# Item Powers
 
 [Data Type](../data_types.md).
 
-An [Object](object.md) used to define how a stat bar should be rendered.
+An [Object](object.md) which defines a power granted by an item.
 
-### Fields:
 
-####Item Powers:
+### Fields
 
-Field  |      Type         | Default | Description
--------|-------------------|---------|-------------
-`power`  | [Power](../data_types/float.md) | | The ID for the power to grant.
-`slot`| [Equipment Slot](../data_types/float.md) | `"mainhand"` | The slot that power is active in.
-`hidden` | [Boolean](../data_types/float.md) | `false` | Whether the item shows that it has this power.
-`negative`| [Boolean](../data_types/float.md) | `false` | Changes whether the tooltip is blue, or red.
+## Regular Item Powers
 
-####Trinket Powers:
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`power` | [Identifier](identifier.md) | | ID of a Power.
+`slot` | [Slot](integer.md) | `"mainhand"` | Slot that the power is granted for.
+`hidden` | [Boolean](boolean.md) | `false` | Is the power visible on the item.
+`negative` | [Boolean](boolean.md) | `false` | Is the power a negative power.
 
-Field  |      Type         | Default | Description
--------|-------------------|---------|-------------
-`power`  | [Power](../data_types/float.md) | | The ID for the power to grant.
-`hidden` | [Boolean](../data_types/float.md) | `false` | Whether the item shows that it has this power.
-`negative`| [Boolean](../data_types/float.md) | `false` | Changes whether the tooltip is blue, or red.
+## Trinket Item Powers
 
-### Examples:
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`power` | [Identifier](identifier.md) | | ID of a Power.
+`hidden` | [Boolean](boolean.md) | `false` | Is the power visible on the item.
+`negative` | [Boolean](boolean.md) | `false` | Is the power a negative power.
+
+
+### Examples
 
 ```json
 "item_powers": [
 	{
-		"power": "example_pack:use_staff"
+		"power": "example_pack:wand",
+		"slot": "mainhand"
 	},
 	{
-		"power": "example_pack:use_staff_2"
+		"power": "example_pack:wand",
+		"slot": "offhand"
 	}
 ]
 ```
-
-This is 2 different powers, that will be visible on the items tooltip, and function in the main hand.
+Grants the power `example_pack:wand` when in either the `mainhand`, or `offhand` slot.
